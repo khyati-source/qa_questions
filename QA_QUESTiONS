@@ -1,3 +1,4 @@
+                                              20/5/2025
 what is git fetch and git pull 
 
 git revert and git reset 
@@ -20,29 +21,77 @@ what are the keys used for encrption?
 
 where to store customer managed key? 
 
-how to host a static application in aws ???and waht services needed 
+how to host a static application in aws ???and what services needed 
 
 which storage is best for highly availabilty ,high frequency and cost?? 
+
 what is the use of tax in ec2? 
 
 how to restrict access in efs and ebs? 
 
-To find all empty files in the current directory and subdirectories:find . -type f -empty 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              21/5/2025
+To find all empty files in the current directory and subdirectories:
+find . -type f -empty 
+---------------------------------------------------------
 Enable debug mode and disable it 
-
+set -x and set +x
+-----------------------------------------------------------
 ' vs " 
-
+name="World"
+echo 'Hello $name'   # Outputs: Hello $name
+echo "Hello $name"   # Outputs: Hello World
+-----------------------------------------------------------
 what is echo $? 
-
+echo $? in bash prints the exit status of the last executed command.
+-----------------------------------------------------------
 What is echo $! 
-
+echo $! in bash prints the process ID (PID) of the most recently started background job.
+-----------------------------------------------------------
 How do you search if file exists or not in folder? 
-
+if [ -e "/path/to/file" ]; then
+    echo "File exists."
+else
+    echo "File does not exist."
+fi
+-----------------------------------------------------------
 How to list all events file in linux 
 
+-----------------------------------------------------------
 I am trying to execute some command and i want to supress the output 
-
+some_command > /dev/null  (Suppress only stdout (still shows errors):)
+some_command 2> /dev/null (Suppress only stderr)
+-----------------------------------------------------------
 How to check whether the file has content or not 
+#!/bin/bash
 
-fine the url link regular expression in file and list it 
+FILE="example.txt"
+
+if [ -s "$FILE" ]; then
+    echo "File '$FILE' has content."
+else
+    echo "File '$FILE' is empty or does not exist."
+fi
+-----------------------------------------------------------
+find the url link regular expression in file and list it 
+grep -Eo 'https?://[^ ]+' file1.txt
+-----------------------------------------------------------
+write a Bash script with some echo commands to print arguments.
+#!/bin/bash
+
+echo "Script name: $0"
+echo "First argument: $1"
+echo "Second argument: $2"
+echo "All arguments: $@"
+echo "Total number of arguments: $#"
+-----------------------------------------------------------
+ how you can do scaling (floating point) and division in bash scripting with echo and bc (the calculator):
+echo $((10 / 3))         (Integer division)	
+# Output: 3
+
+echo "scale=2; 10 / 3" | bc    (Floating point div)
+# Output: 3.33
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              22/5/2025
+
