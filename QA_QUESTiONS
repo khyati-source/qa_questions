@@ -94,4 +94,33 @@ echo "scale=2; 10 / 3" | bc    (Floating point div)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                               22/5/2025
+what is serveless service?
+what is lambda and its uses and its advantages and disadvantages
+what is vpc?
+what is public and private subnet?
+components of vpc
+how to make subnet public and private
+private subnet want to send information to outside give me config
+nat gateway?
+what is internet gateway
+what is route table
+where the security groups come here?
+what is difference betwwen sg and nacl
+what is disadvantage of vpc peering
+what is disadvantages of lambda
+libraries of lambda
+end points?
+
+
+
+
+
+
+
+
+
+
+
+
+
 
