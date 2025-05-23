@@ -113,6 +113,20 @@ end points?
 How to Launch an EC2 Instance in a Private Subnet
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                              23/5/2025
+Tasks:
+
+enable life cycle policy for s3
+perform bastion host(create private instance from one account and another bastion server in another instance)
+create vpc and public subnet and private subnet
+
+
+
+
+
+
 
 
 
