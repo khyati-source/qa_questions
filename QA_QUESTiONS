@@ -121,6 +121,8 @@ Tasks:
 enable life cycle policy for s3
 perform bastion host(create private instance from one account and another bastion server in another instance)
 create vpc and public subnet and private subnet
+create a lambda to restart a instance
+create two users and create group and add users to agroup and try to add some policies individaully to a group level and so the policy should be different for group level and user level
 
 
 
