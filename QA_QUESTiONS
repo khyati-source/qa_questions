@@ -126,9 +126,53 @@ create two users and create group and add users to agroup and try to add some po
 
 
 
-
-
-
+===============================================================================================================================================================
+                                              26/5/2025
+what is list and tuple?
+why list are mutable and tuples are immutable?
+built in data types?
+built in models?
+what is slicing in python?
+what is cloud formation??
+what is vpc endpoint?
+Types of VPC Endpoints:
+which services Supports gate way endpoint?
+what is transit gateway?
+what is intra and inter transit gateway?
+what are different types of purchasing options in aws?
+when we create a transit gateway between two vpcs what we have to enable?
+what are nacls?
+when we create nacls there are some rules what are they?
+Why are there gaps between NACL rule numbers?
+how static routes and route propagation work with AWS Transit Gateway.
+general categorization of instance type
+what is arn number?
+what is static ip?
+when do we use elastic ip?
+what is ami?
+Tenancy in EC2
+edge location in aws?
+"Burstable" in AWS?
+what is difference between cloud watch and cloud trail
+difference between nacl and sg?
+what is session manager?
+what are snapshot?
+Different OS Layers or Components in AWS context:
+What is Disaster Recovery?
+what is latency?
+give some services of az specific and region specific?
+what is bastion host?
+give some services of az specific and region specific and global specific?
+The difference between scp and rsync?
+libararies in lambda?
+types of policies in iam?
+what is active directory?
+what are the different types of cloud computing models
+git revert n git reset
+git stash  and git unstash?
+git cherrypick
+git squash
+git rebase
 
 
 
