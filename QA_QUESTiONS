@@ -174,9 +174,26 @@ git cherrypick
 git squash
 git rebase
 
-
-
-
+===============================================================================================================================================================
+                                               29/5/2025
+concantization vs virtualization
+advantages of concantization
+what is docker
+how to remove the image with mutiple tags
+how to  rename the image name and image tag
+how to create container from image
+different types of hypervisor
+how to delete the ruuning container?
+Why Can't You Delete a Running Container Directly?
+how to get inside into container?
+how to start the container?
+how to remove mutiple containers?
+how to list the containers?
+What are Dangling Images in Docker?
+how  to check logs of the container
+why do you want to check the logs?
+How to do port forwarding with Docker containers?
+What is docker inspect?
 
 
 
