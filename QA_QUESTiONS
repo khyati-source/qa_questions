@@ -196,6 +196,43 @@ How to do port forwarding with Docker containers?
 What is docker inspect?
 
 
+===============================================================================================================================================================
+                                               30/5/2025
+
+give a command to pull the image
+give a command to list the images
+command to change the tag of existing image
+Delete a Tagged Docker Image
+what is the column created while we are listing the images?----The "CREATED" column shows when the Docker image was built, not when it was pulled or listed.
+ How to Untag a Docker Image
+how to tag the none repo?====docker tag <image_id> <new_repo>:<new_tag>
+how to list layers?
+what is dangling images
+how to rename the image?======docker tag my-old-image:latest my-new-image:latest   docker rmi my-old-image:latest(optional)
+how to list the dangling images?======docker images -f dangling=true
+command to create container from the image?
+If you want to run a container in the background using -d, then what is the need of the -it flags.???
+         (Some programs inside the container require a TTY (terminal) to run properly.
+         If you’re just running a service (like a web server) in the background, you only need:docker run -d <image>
+how to get inside container if i dont use -it?
+          docker exec -it <container_id_or_name> /bin/bash
+If you get an OCI runtime error when running???
+          Some containers (especially minimal ones like Alpine) don’t have /bin/bash,Try using /bin/sh instead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
