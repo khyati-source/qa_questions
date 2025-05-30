@@ -212,12 +212,26 @@ how to rename the image?======docker tag my-old-image:latest my-new-image:latest
 how to list the dangling images?======docker images -f dangling=true
 command to create container from the image?
 If you want to run a container in the background using -d, then what is the need of the -it flags.???
-         (Some programs inside the container require a TTY (terminal) to run properly.
+         Some programs inside the container require a TTY (terminal) to run properly.
          If you’re just running a service (like a web server) in the background, you only need:docker run -d <image>
-how to get inside container if i dont use -it?
+how to get inside container?
           docker exec -it <container_id_or_name> /bin/bash
+          Alternative: Using docker attach(docker attach connects you to the container’s main process (the one started by the original docker run command).
+
 If you get an OCI runtime error when running???
           Some containers (especially minimal ones like Alpine) don’t have /bin/bash,Try using /bin/sh instead
+docker exec <container_id_or_name> /bin/sh
+            without -it, Docker will execute the shell, but:
+            You won’t have an interactive terminal.
+            The shell will start, but since you’re not attached interactively, you won’t see a prompt or be able to type commands.
+            The command will just run and immediately exit, so it’s usually not useful for interactive access.
+
+how to list only container ids?  (To list only the container IDs of running containers= docker ps -q)   (all containers=docker ps -aq)
+how to inspect conatiner?docker inspect running-my-container
+how to list process of single container
+how to check state of container?
+how to check status of container?
+
 
 
 
