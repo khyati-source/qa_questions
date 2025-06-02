@@ -282,8 +282,13 @@ WHAT ARE VARIOUS STORAGES IN S3?
 can we share one instance ami to another aws account?
 WHat athe various services that are options available to monitor aws resources?
 can a pulic subnet work without internet gateway?
-
-
+can you mount same efs in different regions?
+can you mount same ebs in different regions?
+what is transit gateway?
+difference between transit gateway and vpc peering
+what is iam permission boundaries?
+What are Permission Boundaries?
+what is bastion host?
 
 
 
