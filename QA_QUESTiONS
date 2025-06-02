@@ -271,9 +271,17 @@ how can you control traffic?
 what is cloud computing
 what are storage options available in aws ?
 what is on demand pricing?
-
-
-
+suppose i choose reserved instance can i change it after three months the instance type?
+suppose i choose savings instance can i change it after three months the instance type?
+How to Restrict Access at the S3 Bucket Level
+suppose i have two public subnets but instances are not able to connect to internet?
+what are the core services in aws?
+Common Use Cases for AWS Lambda?
+how AWS Lambda billing works:
+WHAT ARE VARIOUS STORAGES IN S3?
+can we share one instance ami to another aws account?
+WHat athe various services that are options available to monitor aws resources?
+can a pulic subnet work without internet gateway?
 
 
 
