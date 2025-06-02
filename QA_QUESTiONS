@@ -235,13 +235,42 @@ how to check status of container?
 
 
 
+===============================================================================================================================================================
 
+                                              2/6/2025
 
-
-
-
-
-
+what are regional and az ?
+what are pricing plannings in aws
+what is iam role
+what are the cloud computing models
+what is cloud watch and cloud trail
+what are types of ec2 instances
+“Suppose you have two instances running and suppose for one instance you are stopping the instance and the other instance you terminate it. 
+And both instances have EBS volume attached to them. 
+Okay, when you're performing stop and terminate, what happens basically?”
+what ia ami
+what is elastic ip
+can u attach multiple ebs to instance?
+To SSH into an EC2 instance, the general command is?
+ur instance is terminated suddenly how can u debug it?
+what is snapshots?
+once instance is created can we change the instance type?
+what is crossaccount?
+what is vpc
+what is internet gateway?
+suppose u have private subnet i want to access to internet ?
+difference sg vs network acls?
+per region how many vpc can we create?
+To connect two VPCs, you have several options depending on your use case. what are they?
+what is vpc peering?
+difference vpc peering and transit gateway?
+various types of ec2 instance?
+what is various checks during launching instance?
+How to Secure an EC2 Instance
+how can you control traffic?
+what is cloud computing
+what are storage options available in aws ?
+what is on demand pricing?
 
 
 
