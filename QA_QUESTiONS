@@ -299,4 +299,24 @@ can we pause s3 bucket?
 
 
 
-
+where is store custom images
+what is docker file
+what is custom image 
+why we need custom image
+what are the instructions in docker 
+how to run multiple shell commands, like listing files, copying them, and changing their permissions.
+what is env
+If I have to pass an ENV file, where should that file be located?
+how can we pass env variable in build time?
+Why we are using env file?
+why we are setting env variables??
+Copy vs add in docker file 
+what is zip and tar
+why add instruction doens't support zip 
+cmd vs entrypoint 
+what are the base images that we use and why we choose that base image
+What are light weight base images and why?
+how can we login into Direct path into container during runtime
+how to override the default cmd 
+command for building a custom image 
+why u prefer a file as docker file
