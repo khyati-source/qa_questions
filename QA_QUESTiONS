@@ -319,4 +319,12 @@ What are light weight base images and why?
 how can we login into Direct path into container during runtime
 how to override the default cmd 
 command for building a custom image 
-why u prefer a file as docker file
+why u prefer name a file as docker file
+some real-world scenarios where you might want to override the CMD in a Docker image when running a container.
+how to delete all the images 
+if i want to delete few images with single command how??
+what is dangling images 
+how to delete dangling images 
+what will be deleted if i use prune command 
+why we use prune command
+
