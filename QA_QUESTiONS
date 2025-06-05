@@ -333,3 +333,19 @@ difference between vm and container
 ==========================================================================================================================================================
 
                 5/6/2025
+what is docker network 
+what are types of docker network 
+what is none network and give real time examples 
+what is command for creating custom build network and how to connect to a container 
+Give acommand for Custom bridge network and how to connect to a container 
+what is overlay network 
+explain maven lifecycle
+what is the extension of file after we build maven
+what is  difference between delivery and deployment stage 
+Delivery vs Deployment
+give build tools
+what is git stash
+How to restore changes from git stash back to uncommitted state (working directory)
+what is webhook and scheduled jobs in jenkins 
+What are Parameters in Jenkins Pipeline?
+difference between ebs,efs,s3
