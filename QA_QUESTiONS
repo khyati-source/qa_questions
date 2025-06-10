@@ -364,3 +364,15 @@ What are the different merging strategies in git
 
 1. Create a container on host network with application code provided by Harsha.
 2. 1. Create a container on bridge network with application code which is flask application code 
+
+
+
+========================================================================================================================================
+
+
+         10/6/2025
+
+what is host network and real time example where it is uded
+what is multi stage build and advantages of it
+Why volume mount is more persistent 
+what is advantage and disadvantage of volume mount and bind mount
