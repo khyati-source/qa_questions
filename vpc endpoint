@@ -1,0 +1,172 @@
+step-by-step guide to set up SSM access for a private EC2 instance using VPC Interface Endpoints, all through the AWS Management Console:
+
+Step 1: Create IAM Role for EC2
+   1)Go to IAM Console → Left sidebar → Roles
+   2)Click Create role button (top right)
+   3)Select AWS service → EC2 → Click Next
+   4)In Attach permissions policies search bar, type AmazonSSMManagedInstanceCore
+   5)Select the checkbox for AmazonSSMManagedInstanceCore
+   6)Click Next: Tags → Next again
+   7)Enter Role name: EC2SSMRole → Click Create role
+   8)Now go to EC2 Console → Instances
+   9)Select your private EC2 instance → Actions → Security → Modify IAM Role
+   10)Select EC2SSMRole → Click Update IAM role
+
+Step 2: Create Interface Endpoints
+  For each of the three services below, repeat:
+  1)Go to VPC Console → Left sidebar → Endpoints
+  2)Click Create Endpoint
+  3)In Service name, search for (replace <region> with your AWS region):
+       com.amazonaws.<region>.ssm
+       com.amazonaws.<region>.ec2messages
+       com.amazonaws.<region>.ssmmessages
+  4)Select your VPC
+  5)Under Subnets, select the private subnet(s) where your EC2 resides
+  6)For Security group, select or create one allowing outbound HTTPS (port 443)
+  7)Make sure Enable Private DNS Name is checked
+  8)Click Create Endpoint
+
+Step 3: Check Security Group
+  1)Go to EC2 Console → Security Groups
+  2)Select the security group used by your EC2 and Endpoints
+  3)Ensure Outbound rules allow HTTPS (port 443) traffic
+
+1. Security Group for Private EC2 instance
+| Direction    | Protocol | Port Range    | Source                       | Purpose                                      |
+| ------------ | -------- | ------------- | ---------------------------- | -------------------------------------------- |
+| **Inbound**  | TCP      | 22 (optional) | Your trusted IP / Bastion SG | For SSH access if needed (optional)          |
+| **Inbound**  | (Others) | As per app    | As required                  | Application-specific inbound rules           |
+| **Outbound** | TCP      | 443           | 0.0.0.0/0 or Endpoint SG     | Allow HTTPS outbound traffic to SSM endpoint |
+Why outbound HTTPS?
+EC2 instance initiates connections to AWS SSM service endpoints via port 443.
+
+Inbound from SSM not needed
+Because the connection is initiated from the instance, responses are allowed by the stateful nature of SGs.
+
+2. Security Group for VPC Interface Endpoints (create a dedicated SG for Endpoints)
+| Direction    | Protocol | Port Range | Source                        | Purpose                                         |
+| ------------ | -------- | ---------- | ----------------------------- | ----------------------------------------------- |
+| **Inbound**  | TCP      | 443        | EC2 instance Security Group   | Allow EC2 instance to connect to endpoint       |
+| **Outbound** | All      | All        | 0.0.0.0/0 or appropriate CIDR | Allow endpoint to communicate with AWS services |
+
+Example Setup
+EC2 SG name: SG-EC2-SSM
+Endpoints SG name: SG-Endpoints-SSM
+
+Attach SGs to resources
+Attach SG-EC2-SSM to your private EC2 instance
+Attach SG-Endpoints-SSM to each Interface Endpoint you create (ssm, ec2messages, ssmmessages)
+
+
+
+Step 4: Verify SSM Agent on EC2
+  1)Connect to EC2 (if possible via existing way) or check using Session Manager later
+  2)Run these commands to check/start agent:
+    sudo systemctl status amazon-ssm-agent
+    sudo systemctl start amazon-ssm-agent
+    sudo systemctl enable amazon-ssm-agent
+
+Step 5: Test SSM Session Manager
+  1)Go to AWS Systems Manager Console → Session Manager
+  2)Click Start session
+  3)Select your private EC2 instance
+  4)Click Start session
+
+
+
+
+
+Great question!
+
+For the security group on your EC2 instance and interface endpoint ENIs, the important part is outbound HTTPS traffic because:
+Your EC2 instance initiates the connection to the AWS service (like SSM) through the endpoint.
+That means EC2 sends outbound TCP traffic on port 443 to the endpoint’s private IP.
+The return traffic (responses from the service) is automatically allowed by AWS security groups’ stateful nature (they track connection state and allow return packets).
+
+
+Summary:
+| Resource                    | Inbound Rule                               | Outbound Rule                            |
+| --------------------------- | ------------------------------------------ | ---------------------------------------- |
+| **EC2 Security Group**      | Usually open for SSH or app traffic        | Allow outbound HTTPS (port 443)          |
+| **Endpoint Security Group** | Allow inbound HTTPS (port 443) from EC2 SG | Allow all outbound or at least responses |
+
+
+
+
+
+If you can’t connect to the EC2 instance and you need to ensure the amazon-ssm-agent is running, here’s what you can do:
+
+Option 1: Use a Bastion Host (Public EC2)
+SSH into a bastion host (public EC2 in the same VPC).
+
+From there, SSH into the private EC2 using its private IP and key.
+
+Then run:
+sudo systemctl status amazon-ssm-agent
+sudo systemctl start amazon-ssm-agent
+sudo systemctl enable amazon-ssm-agent
+
+
+Option 2: Use EC2 User Data (Reset agent on reboot)
+If SSH is not possible at all, you can use EC2 User Data to automatically start and enable the agent at boot:
+
+Stop the instance (you won’t lose data).
+
+Go to Actions > Modify instance > Advanced details
+
+In the User data field, paste:
+#!/bin/bash
+sudo yum install -y amazon-ssm-agent
+sudo systemctl enable amazon-ssm-agent
+sudo systemctl start amazon-ssm-agent
+
+Save and start the instance again.
+
+It will run this script at boot and activate the SSM agent.
+
+
+
+
+Bonus: How to verify from AWS Console?
+After agent is running and endpoints are correct:
+
+Go to Systems Manager > Managed Instances
+
+You should see your instance appear with “Managed” status.
+
+Try starting a Session Manager session to test.
+
+
+
+
+There was an error creating VPC endpoint
+Enabling private DNS requires both enableDnsSupport and enableDnsHostnames VPC attributes set to true for vpc-0553bb5bd4dae8d7a
+what should i do?
+
+
+How to enable enableDnsSupport and enableDnsHostnames on your VPC
+1. Open the VPC Console
+Go to AWS Management Console → VPC → Your VPCs
+
+2. Select your VPC (vpc-0553bb5bd4dae8d7a)
+Click on the VPC ID to open details
+
+3. Check current values
+Scroll down or look at the Details tab
+
+Find:
+
+DNS resolution (enableDnsSupport)
+
+DNS hostnames (enableDnsHostnames)
+
+4. Enable DNS support and hostnames if needed
+If either is No, click the Actions button (top right) → Edit DNS hostnames or Edit DNS resolution
+
+Check the box to enable them both:
+
+Enable DNS resolution
+
+Enable DNS hostnames
+
+Click Save
