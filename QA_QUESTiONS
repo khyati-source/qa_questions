@@ -384,5 +384,21 @@ how to use multi stage build in a dockerfile ?how you call it in the next stages
 what is cloud formation 
 what is template 
 what language are used in template
+1. what is stack?
+2. what is an IAC generator?
+3. Stack option?
+4. How do you create a stack? What's it called
+5. What is the S3 URL below its showing? While creating a stack
+6. If you delete the EC2 instances, what will happen? Drift be created? how & why
+7. Did you explore Infrastructure Composer? What is the infrastructure composer?
+8. Can you explain template source, like we have S3, upload template, and git sync,
+    9. what is stackset? 
+    10. What is a nested stack? Real-time scenario?
+11. what is create change set(preview) & make direct update ?(no preview)
+   12. What is from port & to port under the security group in the template
+13. What is the intrinsic function?
+14. What is are update stack?
+15. what are the blocks ?
+   16. components of cloudformation tempalte ?
 
 
