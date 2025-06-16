@@ -402,3 +402,16 @@ what language are used in template
    16. components of cloudformation tempalte ?
 
 
+===========================================================================================================================================
+               16/06/2025
+
+
+What is a multistage build?
+What-- target in multi-stage build? -->  it will stop the build at a particular stage
+How do you handle or build without dependencies?
+How will we copy data from the required file from one stage to another stage?
+How do you call multiple FROM statements in a Docker file?
+Optimize Docker file?
+Can we have different images in a multi-stage build
+What will be the execution point in the Dockerfile?
+CMD VS Entrypoint?
