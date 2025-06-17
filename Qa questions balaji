@@ -1,0 +1,374 @@
+General questions
+
+how you ensure the best possible security for high availability architectures for 3 tier applications.
+Diff b/w SGs and NACLs.
+what is VPC peering.
+How do you scan the vulnerabilities specially for AWS instances.
+diff between IAM Users and Roles
+Can you avoid the specific port traffic using SGs?
+How you connect to private instances when the SSH connection is not working?
+where do you use firewalls, SGs and NACLs
+What are the best password security practices used by your organisation?
+
+What are the security parameters we must consider while we are creating an EC2 instance for production?
+How can you protect the data in an AWS instance?
+How can you connect from AWS to on-prem servers?
+Explain about the transit gateway and why do we use this?
+What are the provisioners available in Terraform and can you explain the use cases?
+I have created an EC2 instance named A, and I want to create another instance B. It should create an instance without deleting instance A. What can I do during this?
+I have created an EC2 instance through Terraform. I don't have a backup of the Terraform state file, it is not in the remote state and locally not available. Now when I do apply, what can I do?
+Suppose I have given one command in null resource, it should run every time. What is the behavior?
+What is the difference between a map of objects in Terraform and how can you write an example?
+Suppose in your DevOps team, new team members are added to your team. How can you provide AWS access to your new users, what is the behavior of login to the console?
+What is the difference between an EBS-backed instance and a non-EBS-backed instance?
+I have 3 nodes (small, medium, and large), and I want only data load to go to the large node. How can I do that?
+When I deploy the pods, it should be deployed on large and medium. Nodes, except small. How can I configure that?
+I am getting the following error, how can I debug that and what does the error mean?
+
+    Pods fail to schedule
+    0/5 nodes are available: insufficient memory.
+
+What is the difference between scaling and autoscaling in Kubernetes?
+If I don't specify TargetPort in the service object, what is it going to do?
+What are the different types of secrets in Kubernetes?
+I have an Ingress object that is not routing the traffic to the Kubernetes cluster. What are the reasons and how do you troubleshoot that?
+I have created a service object that is not mapped to a deployment. What could be the reason and how do you debug it?
+What are the different ways to specify the probes in Kubernetes?
+What is the difference between git push --force-with-lease vs --force?
+If I select the restart policy as Never, what is it going to do?
+What is an init container and why do we need to use it?
+What is the difference between EKS vs ECS vs Fargate?
+How can you delete the last 2 git commits?
+
+)What is the difference between NSG and Firewall.
+2)What is the difference between COPY and ADD command in Docker File.
+3)What is Taint/Tolerent.
+4)What is stateful set.
+5)Architecture of Kubernetes.
+6)Use case of Node-Port and Cluster IP service Type in Kubernetes.
+7)Explain GITHUB Action workflow file.
+8)Difference between entry point and CMD in Docker File.
+9)Can we connect two different VM that are in a different Vnet.
+10)Private Endpoints.
+11)Express route in Azure Cloud.
+12)What is PDB in Kubernetes.
+13)Difference between PV/PVC in Kubernetes.
+14)What is state file in Terraform.
+15)What is lock file in Terraform.
+16)Why Kube-let and Kube-proxy is used for in Kubernetes.
+17)How you can build an Image and push it to the ACR.
+18)How you can use the existing Image into the YAML file to deploy a POD.
+19)What is POD in Kubernetes.
+20)Types of Service in Kubernetes.
+21)Namespaces in Kubernetes.
+
+
+Whats ur organisation current cicd process and tools
+What do u know about Cyberark and what and how u r consuming that in ur pipeline
+Which scriting language u r aware? and how much confident on that?
+What are the services u were used in AWS
+If U want to design a infra for high scalablity, how did u do that?
+What are NACLs,SecurityGroups,NAT Gateway
+About Kubernetes architecture
+diff b/w Replicaset and Deployment
+About Ansible,Terraform
+About ConfigMaps,PV,PVCs
+write a Deployment file
+Write a Docker File
+About multistage Docker file
+Which type of Jenkins File u r using? Can u pls Write a Jenkins File?
+What is the toughest situation u r faced while implementing anything and what did u learnt from that?
+U handled any debug/troubleshoot for kubernetes?
+About Prometheus/Grafana
+About Fargate
+What is lambda functions? did u used any Lambda functions? what did u acheived from that? 
+
+
+
+
+
+
+
+
+new 
+
+about Maven release
+about maven lifecycle
+about dependency management tag
+how did u manage Kubernetes pods it is on Linux right?
+what will happen with maven install
+what are the types of branching stratergy u r using
+in which directory or in which place ur pom.xml there 
+
+
+What is Docker?
+
+How to create a Dockerfile?
+
+How to create a Docker container?
+
+How to check logs in Docker?
+
+What is ulimits in Docker?
+
+What is a Parameter Group in a database?
+
+Which command to dump and import a database?
+
+What is AWS CloudFront?
+
+How to map an S3 bucket to a service?
+
+How to hide EFS storage?
+
+What is an ECS Task Definition?
+
+How to deploy an app using AWS ECS?
+
+What is the DNS port number?
+
+How to copy data from one server to another?
+
+
+What command is used to initialize a Terraform working directory?
+
+In Kubernetes, what command is used to check the status of all pods in a specific namespace?
+
+Which AWS service is primarily used for object storage?
+
+What is the purpose of a Dockerfile?
+
+What is the difference between a Deployment and a StatefulSet in Kubernetes?
+
+Which tool would you use for infrastructure as code (IaC) when managing AWS resources, and what file format does it use?
+
+In Jenkins, which file is commonly used to define CI/CD pipelines as code?
+
+What Kubernetes object is used to expose a service externally using a DNS name?
+
+Which shell command is used to give execution permission to a shell script?
+
+What is the primary purpose of Prometheus in a cloud environment?
+
+An Ubuntu server on AWS has run out of disk space, how would you handle this situation?
+
+
+
+
+Terraform
+What is the difference between resource and data in Terraform, and how are they used?
+What are the most commonly used 10 Terraform commands and their use cases?
+What are the data types in Terraform?
+What is a function in Terraform?
+What are Terraform modules, and how do they function in an environment?
+
+1. Write a Terraform code to create multiple S3 buckets
+How you managed statefile
+So how are you managing the conflict? State file conflicts
+what you did with Jenkins?
+How are you integrating the SonarQube with the Jenkins server?
+How were you authenticating Jenkins to push docker image to registery?
+Have you worked on the Kubernetes?So what deployment strategy are you following?
+So how are you implementing the blue green deployment?
+Do you know what is HPA?
+suppose you deploy one application okay and you found some issue, you wanted to roll back using the kubernetes how you roll back to the particular version, what is the command?
+What is the stateful set in the Kubernetes?
+Have you worked on the AWS, right?
+So how many types of policy, IAM policy are there? IAM policies?
+So what is the difference between the S3 bucket policies and acls?
+what is the dynamic auto scaling?
+What is the difference between Security groups and NACL?
+
+Commands used for Kubernetes,Docker and Ansible..
+Explain Kubernetes Structure, Config Map and Schedular..
+3.How do you troubleshoot Imagepull backoff error ?
+Explain installation of prometheus and grafana..
+Explain how you build CICD pipeline..
+How we monitor cpu matrics in grafana?
+How do you grant access to user?
+
+Explain OSI models
+How do you did cost optimization in AWS?
+Explain on Lambda, CFT, Data Storage, S3 ?
+How do you implement best security policies on AWS?
+What factor motivates you for this role?
+6, Explain how you did your cloud migration?
+
+Here are the interview questions I was asked during my telephonic interview at Wikreate Media: 
+Use of Route53
+Git stash
+Difference between S3 and EBS
+difference between git fetch and git pull
+What is the difference between vertical and horizontal scaling?
+What is the role of continuous integration?
+
+
+
+
+Okay, here are all the questions the interviewer asked during the discussion, including the follow-up questions:
+
+Can you tell me about a time when you realized you needed a level of subject matter expertise to do your job well? What did you do about that?
+What was the situation where you needed deeper expertise?
+What did you do to acquire that deeper knowledge?
+What was the result of gaining that expertise?
+
+Can you give me an example of a complex problem that you solved with a simple solution?
+What parts of the solution did you directly implement or change?
+How did you know the solution addressed the problem? Were there any metrics or changes you observed?
+
+What is the name of the physical address of a device on a network called?
+
+Do you know what DNS stands for and what it does?
+When you type in a website address in your browser, how does DNS resolve that in the background?
+
+Can you name some standard directories in a Linux system?
+
+How would you troubleshoot a full file system on a Linux server?
+Can you provide some examples of standard directories in a Linux system?
+How would you specifically troubleshoot a full file system? What commands would you use?
+
+How would you monitor system performance and manage processes on a Linux server?
+How would you monitor system performance and identify processes consuming high resources?
+
+Do you have any questions about the role at Amazon?
+
+
+this is a company called "Glabant". it was a devops role :                                                          Can you explain your experience with AWS services?
+
+If we are going to implement a solution for microservices, how would you propose a solution to implement a microservices architecture?
+
+
+
+Why do you prefer to start with EKS instead of ECS?
+
+   
+Follow-up: What are the capabilities of EKS that make it a better choice over ECS for this project?
+
+How would you configure the Elastic Load Balancer to work against the EKS cluster?
+
+How many public subnets and private subnets are you going to use in the VPC?
+
+In which subnets are you going to locate the ECS cluster and the RDS instances?
+
+
+How would you handle multiple environments (development, staging, production) using Terraform?
+
+
+Can you explain the steps involved in creating a CICD pipeline for deploying a Spring Boot application to ECS?
+
+Can you share your experience in handling a large number of servers and your administrative responsibilities?
+
+    
+Follow-up: What kind of administrative tasks and responsibilities have you had in managing a large number of servers?
+
+Are you available to work online from Monday to Friday for the first six months and visit client offices twice a week?
+
+    
+No follow-up question.
+
+Do you have any questions for me?
+
+
+Ses company interview questions 1.tell me abt yout self 2.explain kubernetes architect 3.have you worked on hybrid environment with AKS 4.how do u implement cost optimization on AKS 5. Difference between terraform and ansible 6.have u worked on Prometheus 7.have you worked on isolated environment  8.explain ci/cd 9.what is the advantage of using AKS rather than using kubernetes
+
+
+List of Questions I Was Asked During the Telephonic Screening Round at Qualcomm
+
+How do you monitor applications, services, logs, and key metrics in an organization?
+
+ What are the different types of AWS services used for various use cases?
+
+ If there are multiple EC2 instances (5-10), and I need to share files across all, which AWS service should I use?
+
+ If I’m using EFS, but it consumes more than data ex: 10 TB, and making costs high, how can I reduce the cost without impacting the data?
+
+ What is Auto Scaling Group (ASG) in AWS?
+
+ If an ASG scales up to 10 instances and scales down to 5, but I want to keep a critical instance running without termination, how can I configure that?
+
+How can I move S3 data older than 30 days to Glacier storage to reduce costs?
+
+ What is Route 53, and how does it work?
+
+ If my Route 53 DNS receives traffic from multiple countries, can I redirect traffic based on the country?
+
+Which text editors are commonly used in Linux for file editing?
+
+How do I find and replace all word (e.g.,"abc" with "xyz") inside a file?
+
+If a log file contains multiple client IPs and status codes, how can I count the occurrences of different status codes?
+
+Write a Linux automation script to extract and count HTTP status codes from a log file every 5 minutes.
+
+Some advanced questions on docker asked to me in interviews:
+How to run multiple docker compose on same machine
+What is build context
+What is run context
+Flow of request when you type docker commands
+How to connect to different daemons on demand through same docker client
+Env vs Build arguments
+How to pass arguments to containers which do not get persisted in the containter after build stage
+How env is different than arg 
+What is —build-arg 
+What are docker buildx
+What is scratch image
+What is distroless image
+How do you mount a docker secret
+Restart policy in docker
+
+
+
+Kubernetes
+
+1) What will happen if the k8 master node and worker node firewall gets broken? Will the existing deployments work or impact on any new deploymentsHow will you communicate to people
+2)How to use the secrets in kubernetes? What encryption methods do you use?
+3) How does the GSLB load balancer work?
+4) What is SLI, SLO, SLA
+5) How can you create the extensions in Grafana
+6) How does the ELK setup has been done and what type of agents have you collected
+7) Can you tell one scenario where you have done the RCA wrt linux
+8) You have the JSON data could you please let me know how would you ingest and collect the data in the keys format.
+9) Can you design the Istio Setup for your k8 cluster?
+10) AWS event bridge creation and setup via terraform
+11) What will be the command to add the annotation and the labels for the existing pod?
+12) Design the kubernetes cluster with Ingress.
+13) A sudden surge in traffic causes a web application to become unresponsive what will be the steps you will take to mitigate
+14) Design the deployment of the pod with replica set set as 3 and having apache httpd image running as a container.
+15) How do you reduce the size of Dockerfile
+Write a shell script to find and delete all files in a directory that are older than 30 days.
+Create a script to monitor the disk usage of a server. If usage exceeds 80%, log the details to a file and send an alert email.
+Write a script that renames all .txt files in a directory by appending the current date to the filename
+
+
+Terraform Questions
+
+10 Terraform Scenario Questions Every DevOps Engineer Should Know
+
+1) What happens if your state file is accidentally deleted?
+Answer: Terraform loses track of all managed infrastructure. On next apply, it will attempt to recreate everything from scratch, potentially causing conflicts with existing resources.
+
+2) What happens if multiple team members run terraform apply simultaneously?
+Answer: State file locking fails, risking corrupted state and inconsistent infrastructure. One process succeeds while others error out, potentially leading to drift if not managed properly.
+
+ 3) What happens if a resource fails halfway through a terraform apply?
+Answer: Terraform leaves successfully created resources running but marks the state as tainted. Subsequent apply operations will attempt to recreate failed resources, but you're left in partial state.
+
+4) What happens when AWS API rate limits are hit during a large terraform apply?
+Answer: Operations fail with throttling errors. Terraform retries a few times then fails the apply. Resources created before the limit was hit remain, creating partial deployments.
+
+ 5) What happens if terraform plan shows no changes but infrastructure was modified outside Terraform?
+Answer: Terraform won't detect the drift until you run terraform refresh or terraform plan -refresh-only. This can lead to unexpected behavior when making future changes.
+6) What happens if you delete a resource definition from your configuration?
+Answer: On next apply, Terraform will destroy that resource in your infrastructure unless you use terraform state rm to remove it from state first or use lifecycle { prevent_destroy = true }.
+
+7) What happens if a provider API changes between Terraform versions?
+Answer: You may encounter compatibility issues and failed plans/applies. Resources might need to be rebuilt or configurations updated to match new API requirements.
+
+ 8) What happens if you have circular dependencies in your Terraform modules?
+Answer: Terraform will fail to initialize or plan with dependency cycle errors. You'll need to refactor your module structure to break the circular references.
+
+9) What happens if you exceed AWS service quotas during deployment?
+Answer: Resources will fail to create with quota exceeded errors. Terraform marks them as failed, and you'll need to request quota increases before retrying the apply.
+
+10) What happens if you lose access to the remote backend storing your state?
+Answer: All Terraform operations fail until access is restored. Teams can't collaborate, and changes can't be applied safely. This effectively blocks all infrastructure changes.
