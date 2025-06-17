@@ -415,3 +415,27 @@ Optimize Docker file?
 Can we have different images in a multi-stage build
 What will be the execution point in the Dockerfile?
 CMD VS Entrypoint?
+
+
+
+===========================================================================================================================================
+
+          17/6/2025
+
+architecture of kubernetes 
+what is orchestration in kubernetes 
+Should a Pod have a single container or multiple containers?
+what is deployment controller
+what is difference between docker and kubernetes 
+what is selector and label and give example where to implement this
+what are different types of controller 
+Which object directly interact with pods
+what is cri
+If I want to migrate my Kubernetes setup (data, apps, etc.) to the cloud — how do I do that?"
+what is etcd and what do you mean by reliable in etcd
+what is replicaset and replication 
+what are different types of selectors
+which Higher-level controller that uses ReplicaSet
+Are there any chances for daemon controller to create two pods in single worker node
+Will daemon set automatically create a pod if I add worker node later
+I want to create two replicas of pod with same configuration which controller is best to use
