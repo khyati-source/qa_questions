@@ -1,0 +1,28 @@
+1.How do you achieve high availability cluster.
+2.missing architectural components in aws.(they use to give some diagramin some of the components are missing).
+3. Autoscaling groups in load balancer 
+4. Pod lifecycle.
+5. Self healing in kubernetes cluster.
+6. Container status in pod.
+7. Usage of  .dockerignorefile.
+  8.  Write job spec yaml file.
+  9. Pods in k8s.
+10.what are init containers.
+11. What are container patterns.
+12. AWS load balancer. 
+13. How many container we run on a pod.
+14. What is image pullback error.
+15. Cash loop back error.
+16. Container run error.
+17. Environmental variables in pod.
+18. Create a kubernates dashboard to kubernates cluster. 
+19. What are static pods.
+20. Pod lifecycle.
+21. Labels and selectors. 
+22. Functionality of master node.
+23. Architecture of k8s.
+24. Components of k8s cluster. 
+25. Annotation.
+26. Replication vs replicaset.
+27. Deployment controller.
+28. Horizontal and vertical scaling in k8s.
