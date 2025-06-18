@@ -439,3 +439,9 @@ which Higher-level controller that uses ReplicaSet
 Are there any chances for daemon controller to create two pods in single worker node
 Will daemon set automatically create a pod if I add worker node later
 I want to create two replicas of pod with same configuration which controller is best to use
+
+
+===========================================================================================================================================
+                            18/6/2025
+how to find the specific AWS EC2 instance (worker node) where your Kubernetes pod is running — even if you have 50 worker nodes
+
