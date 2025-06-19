@@ -445,3 +445,11 @@ I want to create two replicas of pod with same configuration which controller is
                             18/6/2025
 how to find the specific AWS EC2 instance (worker node) where your Kubernetes pod is running — even if you have 50 worker nodes
 
+===========================================================================================================================================
+
+                19/6/2025
+
+1 when you can reuse the same port and when you cannot ??
+2 If I make changes inside the container directly, will that be reflected in the config file (like YAML)?
+And how can I get that updated config?”
+3 Update the image version in a Deployment YAML, and verify if the Pod gets updated (rolled out).
