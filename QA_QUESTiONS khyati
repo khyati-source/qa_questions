@@ -480,8 +480,7 @@ I want to shift pods from one node to another node”, in Kubernetes terms this 
 If your Kubernetes node is in NotReady state due to memory issues, and you want to shift (evict) pods from that node to healthy nodes, here’s exactly how to do it?
 what is the command to get logs of resource?
 will the pod recreated in daemonset controller if i delete the pod?
-
-
+how to List Only Running Pods in Default Namespace?
 
 
 
