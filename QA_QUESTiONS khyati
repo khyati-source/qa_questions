@@ -453,3 +453,6 @@ how to find the specific AWS EC2 instance (worker node) where your Kubernetes po
 2 If I make changes inside the container directly, will that be reflected in the config file (like YAML)?
 And how can I get that updated config?”
 3 Update the image version in a Deployment YAML, and verify if the Pod gets updated (rolled out).
+4 how you can recover the YAML file of a Deployment while it still exists in the cluster??
+5 If we delete a Deployment using kubectl delete -f deployment.yaml, can we recover the YAML from etcd?
+6 If I delete the YAML file from my system, can I still run kubectl get deployments?
