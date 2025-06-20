@@ -474,7 +474,10 @@ If your instance is terminated, but the DaemonSet pod is still shown as Running?
 If your Kubernetes node is showing NotReady,?what steps we have to take?
 What happens to a Deployment's pod if the node becomes NotReady?
 What happens to a Daemonset pod if the node becomes NotReady?
-To clean disk space on a Kubernetes worker node, especially if you're getting DiskPressure or EvictionThresholdMet errors???
+how to clean disk space on a Kubernetes worker node, especially if you're getting DiskPressure or EvictionThresholdMet errors???
+how to check the volume (disk) usage of an EC2 instance?
+
+
 
 
 
