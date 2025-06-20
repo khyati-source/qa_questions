@@ -478,6 +478,11 @@ how to clean disk space on a Kubernetes worker node, especially if you're gettin
 how to check the volume (disk) usage of an EC2 instance?
 I want to shift pods from one node to another node”, in Kubernetes terms this is called?
 If your Kubernetes node is in NotReady state due to memory issues, and you want to shift (evict) pods from that node to healthy nodes, here’s exactly how to do it?
+what is the command to get logs of resource?
+will the pod recreated in daemonset controller if i delete the pod?
+
+
+
 
 
 
