@@ -447,7 +447,7 @@ how to find the specific AWS EC2 instance (worker node) where your Kubernetes po
 
 ===========================================================================================================================================
 
-                19/6/2025
+                                                19/6/2025
 
 1 when you can reuse the same port and when you cannot ??
 2 If I make changes inside the container directly, will that be reflected in the config file (like YAML)?
@@ -456,3 +456,26 @@ And how can I get that updated config?”
 4 how you can recover the YAML file of a Deployment while it still exists in the cluster??
 5 If we delete a Deployment using kubectl delete -f deployment.yaml, can we recover the YAML from etcd?
 6 If I delete the YAML file from my system, can I still run kubectl get deployments?
+
+
+===========================================================================================================================================
+
+                                                  20/6/2025
+What Happens to Pods When You Change Image/Config in Kubernetes Controllers?
+what is ImagePullBackOff error 
+common Reasons for ImagePullBackOff and How to Fix Them
+what is Prometheus
+what happens if you stop a worker node when you're using a DaemonSet.
+When You Delete a Worker Node (EC2) in Kubernetes?what happens
+If your EC2 worker node is stopped, but the DaemonSet pod is still shown as Running?why
+If your EC2 worker node is terminated,what happens with the pods?
+how to delete the node
+If your instance is terminated, but the DaemonSet pod is still shown as Running?why
+If your Kubernetes node is showing NotReady,?what steps we have to take?
+What happens to a Deployment's pod if the node becomes NotReady?
+What happens to a Daemonset pod if the node becomes NotReady?
+To clean disk space on a Kubernetes worker node, especially if you're getting DiskPressure or EvictionThresholdMet errors???
+
+
+
+
