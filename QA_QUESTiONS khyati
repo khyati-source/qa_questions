@@ -476,6 +476,9 @@ What happens to a Deployment's pod if the node becomes NotReady?
 What happens to a Daemonset pod if the node becomes NotReady?
 how to clean disk space on a Kubernetes worker node, especially if you're getting DiskPressure or EvictionThresholdMet errors???
 how to check the volume (disk) usage of an EC2 instance?
+I want to shift pods from one node to another node”, in Kubernetes terms this is called?
+If your Kubernetes node is in NotReady state due to memory issues, and you want to shift (evict) pods from that node to healthy nodes, here’s exactly how to do it?
+
 
 
 
