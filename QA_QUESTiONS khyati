@@ -508,3 +508,11 @@ How to check current user ???
 how to turn off all the firewall 
 how to check ip address of ur machine 
 How to check all free ports
+
+==========================================================================================================================================
+
+          26/6/2025
+            task
+1)Create new  service 
+ 2)Add a pod under this service. The image needs to be something that can land on home page when tried accessing the pod.
+
