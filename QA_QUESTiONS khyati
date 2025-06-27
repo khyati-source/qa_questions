@@ -544,7 +544,9 @@ what is activedeadlineseconds
 what is configmap and secrets?
 whats difference btw configmap and secret
 Is only Base64 used in Kubernetes Secrets?
-will kubernetes decrypt the secret automatically?
+will kubernetes decode the secret automatically?
+what are the secret vaults?
+
 
 
 
