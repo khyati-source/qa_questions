@@ -546,7 +546,10 @@ whats difference btw configmap and secret
 Is only Base64 used in Kubernetes Secrets?
 will kubernetes decode the secret automatically?
 what are the secret vaults?
-
+task:
+     create two namespaces and two pods in respective to their namespaces and try to curl to pod from another pod 
+     create job and cronjob
+     write a pipeline where you can create a docker image in the pipeline and then utlize that image and have your manifest file in your github and use that iamge which one is craeted to deploy into kubernets cluster via pipeline only
 
 
 
