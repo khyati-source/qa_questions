@@ -516,3 +516,36 @@ How to check all free ports
 1)Create new  service 
  2)Add a pod under this service. The image needs to be something that can land on home page when tried accessing the pod.
 
+
+==========================================================================================================================================
+                                                27/6/2025
+different ways to secure kubernetes cluster
+does kubernetes use vault?
+do services play a role of securing the cluster?
+When inbound traffic (from outside the cluster) reaches your Kubernetes application, it flows through several layers—where it hits first ?
+what is namespace and use of it?
+can port a  in one namespace can communicate with another pod b which is another namespce?
+If different teams or namespaces exist—like dev, QA, stage, or prod—can a person (user/service) who is accessing their own namespace also access the QA namespace?
+why we need this isolation?
+some resources are scoped at the cluster level, and others are scoped to a specific namespace.what are they?
+What are the different namespaces in Kubernetes?
+when kubelet communicates with the API Server, how it send request?
+what are jobs
+what the job manifest do?
+will the job be deleted?after completion of tasks?
+architecture of jobs?
+when we write cronjob manifest how the tasks are handled and who is the master?
+when the job is failed will the pod gets terminated?
+who is the master of cron job?
+manifest job vs manifest cron job
+simple real-world example of a Kubernetes Job that uses restartPolicy: OnFailure and a matching example using restartPolicy: Never.
+what is backofflimit
+what is activedeadlineseconds
+what is configmap and secrets?
+whats difference btw configmap and secret
+Is only Base64 used in Kubernetes Secrets?
+will kubernetes decrypt the secret automatically?
+
+
+
+
