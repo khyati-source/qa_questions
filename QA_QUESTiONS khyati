@@ -552,5 +552,8 @@ task:
      write a pipeline where you can create a docker image in the pipeline and then utlize that image and have your manifest file in your github and use that iamge which one is craeted to deploy into kubernets cluster via pipeline only
 
 
+==========================================================================================================================================
+                                                30/6/2025
+You're on your local machine, and you want to use scp to download the public key from the remote server how to do that?
 
 
