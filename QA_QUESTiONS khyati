@@ -557,3 +557,21 @@ task:
 You're on your local machine, and you want to use scp to download the public key from the remote server how to do that?
 
 
+==========================================================================================================================================
+                               1/7/2025
+Is it better to use a single container or multiple containers in a Pod?
+what is pod?
+What Happens When You Use Multiple Init Containers?
+How does Kubernetes decide which Init Container to start first, and how does it manage the sequence?
+can we have multi init containers?
+give example of multiple init
+Is it better to use a single Init Container or multiple Init Containers in Kubernetes?
+what is the main advantages of using Init Containers in Kubernetes?
+When Do You Use Init Containers?
+what is init container?
+what are the minimum requirement for init container?
+can we run init container parallely?
+minimal requirements of sidecar container?
+What is a Sidecar Container?
+Can we have a sidecar container inside the side car container??
+Use of a sidecar container
