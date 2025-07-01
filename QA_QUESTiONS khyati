@@ -575,3 +575,5 @@ minimal requirements of sidecar container?
 What is a Sidecar Container?
 Can we have a sidecar container inside the side car container??
 Use of a sidecar container
+u have sidecar container and init container connect together ?give scenerio
+
