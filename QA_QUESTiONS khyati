@@ -579,3 +579,19 @@ u have sidecar container and init container connect together ?give scenerio
 give scenerio for ambasador container
 why you'd need an ambassador container setup
 Disadvantages of Using Too Many Containers in a Pod
+
+
+
+==========================================================================================================================================
+                               2/7/2025
+
+
+disdaventages of emptydir volume
+what is pv and pvc
+main ways to secure PVs
+what are accessmodes of pv
+which access mode is pod specific and  node specific?
+
+
+
+
