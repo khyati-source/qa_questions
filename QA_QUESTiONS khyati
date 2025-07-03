@@ -620,3 +620,21 @@ Where do I use static PV and dynamic PV?
 Give an example for PersistentVolume and StorageClass.
 
 
+==========================================================================================================================================
+
+
+
+                   3/7/20
+Different types of deployment u handlled
+What is Deployment in General?
+what is rolling update in general 
+what is rolling update command in kubernetes 
+how to rollback to previous version or to particular version
+How to Check if New Version Fails on One Server (or Pod) During Rolling Update
+What is Recreate Deployment Strategy?
+what is canary deployment strategy
+What is the Difference Between Blue and Green in Blue-Green Deployment?
+In Which Deployment Strategy Users Do Not Experience the Older Version?
+What About Canary and Rolling Update?
+Why Blue-Green Deployment is Considered BEST for Production
+
