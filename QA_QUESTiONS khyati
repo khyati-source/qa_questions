@@ -638,3 +638,4 @@ In Which Deployment Strategy Users Do Not Experience the Older Version?
 What About Canary and Rolling Update?
 Why Blue-Green Deployment is Considered BEST for Production
 can we use blue green deployment in kubernetes 
+how many pods  will be there during rolling update in kubernetes if we are giving replicas 4
