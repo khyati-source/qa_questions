@@ -595,3 +595,28 @@ which access mode is pod specific and  node specific?
 
 
 
+How do you make sure the AWS credentials are right?
+How to verify the AWS access and secret key are correct?
+🔹 Kubernetes - Secrets & Storage
+
+In Kubernetes, how to verify the keys are correct that we are using in secrets?
+What are other ways to verify the keys in Kubernetes secrets?
+🔹 Kubernetes - emptyDir Volume
+
+From where is storage claimed in emptyDir?
+What resources are used in emptyDir volumes?
+What are other disadvantages of emptyDir?
+🔹 Kubernetes - Access Modes
+
+Which access mode is node-specific and pod-specific?
+🔹 Kubernetes - Persistent Volumes
+
+Which drive do we attach for dynamic provisioning?
+What are all the drivers we need to have to support dynamic provisioning?
+How would you know which pod is utilizing a volume on the worker node?
+How do you identify the pods that are attached to this PVC and PV?
+How to see the worker nodes in a cluster?
+Where do I use static PV and dynamic PV?
+Give an example for PersistentVolume and StorageClass.
+
+
