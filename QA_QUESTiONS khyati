@@ -639,3 +639,32 @@ What About Canary and Rolling Update?
 Why Blue-Green Deployment is Considered BEST for Production
 can we use blue green deployment in kubernetes 
 how many pods  will be there during rolling update in kubernetes if we are giving replicas 4
+
+
+
+
+
+==========================================================================================================================================
+
+what is rbac
+what is role and clusterrole 
+which role should be given to service account 
+what is the command to check what permission you have in resource 
+if we try to create secret yaml what is the annotation 
+what is context
+who is going to configure these context 
+if u r admin of kubernetes clusters can u create a context 
+Let's say if we are having different user and different context what is the command to switch the context 
+If we set context where ur data goes and add
+If we generate keys in which folder the keys are created
+what is node selector 
+where we can use node selector.give scenario 
+Node 1 and node 2 are there,Label was given as node 2,And node selector given as node 2 ,What happens to pod status 
+Can we deploy user database in kubernetes cluster 
+what are types of affinity 
+Whaat is anti affinity 
+what is pod affinity 
+when does the pod goes to pending state
+Why u need anti affinity 
+what are the rules of affinity 
+
