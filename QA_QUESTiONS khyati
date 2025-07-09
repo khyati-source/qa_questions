@@ -668,3 +668,9 @@ when does the pod goes to pending state
 Why u need anti affinity 
 what are the rules of affinity 
 
+
+
+==========================================================================================================================================
+
+
+write a script  it should create snapshots for disk volumes automatically we have
