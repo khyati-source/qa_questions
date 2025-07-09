@@ -690,3 +690,4 @@ done
 
 2-------Define a function and call that function using bash script
 3----------find a file and take backup of file
+4------Search for files with some extension and add backup to the file name and copy old files to new files and delete new files
