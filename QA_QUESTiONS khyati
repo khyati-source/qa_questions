@@ -697,3 +697,11 @@ done
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                                               10/7/2025
+what is docker volumes?
+what is taint and toleration?
+how i can evict pod using affinity?
+i have one tainetd node and another node not tainted ,i want schedule pod in tained node without toleration?
+Node Selector vs. Node Affinity, and which one is better
+What can’t be achieved with Taints and Tolerations?
+Advantage of affinity compared to taints?
+which one we will use if i want to schedule a particular pod to a particular node
