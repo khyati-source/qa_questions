@@ -705,3 +705,25 @@ Node Selector vs. Node Affinity, and which one is better
 What can’t be achieved with Taints and Tolerations?
 Advantage of affinity compared to taints?
 which one we will use if i want to schedule a particular pod to a particular node
+
+
+
+
+===============================================================================================================================================================
+                                         11/7/2025
+how many buckets can i have in aws?
+multi part upload in s3?
+what is dockeraisation?
+how do you bring previous changes we done in git?
+what is the command to checkout branch?
+explain ci cd?
+when do you use git restore?
+virtualization vs dockeraization
+what is difference btw aws volume efs bucket and ebs?what is lifecycle of these ?
+how do you merge a brach?
+what is life cycle policy of s3?give scenerio ?
+ How many S3 buckets can you create per AWS account?
+what is the Max part size	we can upload in s3?
+what is git rebase?
+what is git revert?
+what is merge conflict?
