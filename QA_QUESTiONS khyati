@@ -727,3 +727,32 @@ what is the Max part size	we can upload in s3?
 what is git rebase?
 what is git revert?
 what is merge conflict?
+
+
+
+=============================================================================================================================================
+
+
+✅ What is Shell in Linux?
+✅ What are different types of Shell in Linux?
+✅ What is a Linux namespace?
+✅ What is the difference between .bashrc and .bash_profile?
+✅ What is the difference between .profile and .bashrc?
+✅ How do you check the RAM available in Linux?
+✅ How do you check the storage attached to a Linux machine?
+✅ How to mount a storage device permanently even after reboot?
+✅ How to generate SSH keys using ssh-keygen or OpenSSL?
+✅ What is the command to check if a process is running? (Dynamic or Static output of ps?)
+✅ How to convert standard input to an argument in Linux?
+✅ What is grep vs sed?
+✅ What is the difference between curl and wget?
+✅ How to check whether a particular port is open in Linux?
+✅ What is SCP?
+✅ What is Shebang (#!)?
+✅ What is rsync?
+✅ How to print the first line of a file in Linux?
+✅ What is CronTab?
+✅ How to authenticate from one machine to 100 machines?
+✅ How to copy SSH public keys to 100 servers efficiently?
+✅ Alternative ways to distribute SSH keys without manual login?
+✅ Can we use Ansible, Terraform, or automation tools to distribute keys/configure servers?
