@@ -756,3 +756,40 @@ what is merge conflict?
 ✅ How to copy SSH public keys to 100 servers efficiently?
 ✅ Alternative ways to distribute SSH keys without manual login?
 ✅ Can we use Ansible, Terraform, or automation tools to distribute keys/configure servers?
+
+
+
+=============================================================================================================================================
+                15/7/2025
+
+what is pod lifecycle 
+how can we stop interaction between two pods
+How can we restrict the usage of resources for pods
+what is resource quota and resource limit
+why we use resource quota N limits give scenerio 
+what is cordon
+by using cordon does it evicts the existing running pods
+When do you want to cordon the node 
+what do you mean by drain in node
+In what scenerio can I use drain
+what are probes
+What is horizontal auto scaling and vertical scaling in k8s
+What is horizontal auto scaling and vertical scaling in k8s
+Does k8s automatically do hpa
+what is k8s sigs
+what is metrics server
+how do you rollback previous version 
+how to Rollback to a Specific Revision
+what is use of jenkins pipeline in the deployment 
+how to schedule the job in jenkins pipeline 
+what is the use of jenkins file
+Without Jenkinsfile: Can You Still Use Jenkins?
+how do we trigger a job in jenkins pipeline 
+Whaat is difference between freee style and pipeline 
+how will you troubleshoot jenkins when build is failed
+What are post build action in jenkins 
+If u want to configure git and docker in jenkins what we have to do
+what are agents in jenkins 
+How will you trouble shoot if build is failed
+What are shared libraries in Jenkins
+what is ci cd pipeline 
