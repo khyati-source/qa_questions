@@ -793,3 +793,37 @@ what are agents in jenkins
 How will you trouble shoot if build is failed
 What are shared libraries in Jenkins
 what is ci cd pipeline 
+
+
+===========================================================================================================================================
+
+
+
+✅ Absolute path
+✅ Relative path
+✅ Command to check files and size
+✅ Redirect (> and >>)
+✅ What is >
+✅ What is &&
+✅ What is ||
+✅ Run a job every minute (cron)
+✅ Can I execute every second?
+✅ Schedule a job every 10 min
+✅ Schedule a job on first minute of 26 every year
+✅ Run the cronjob every new year
+✅ Print the last line (tail, sed, awk)
+✅ Print the last line using sed
+✅ Process running from user
+✅ Print the last line (repeated)
+✅ Cut and ask (cut command + interview questions)
+✅ Cut and awk difference
+✅ Difference between cut and awk
+✅ Find a file from specific user
+✅ See the size of a file
+✅ Search anything in a file
+✅ Search words containing aeiou using grep
+✅ Search a word in a file
+✅ aeiou in a grep
+✅ Git architecture
+✅ Commit history in Git
+✅ List all the branches in Git
