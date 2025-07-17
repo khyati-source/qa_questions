@@ -827,3 +827,13 @@ what is ci cd pipeline
 ✅ Git architecture
 ✅ Commit history in Git
 ✅ List all the branches in Git
+
+
+===========================================================================================================================================
+
+
+TASK:
+Create deployment manifest file which should also include taint and  toleration and create or schedule the pods.
+Use statefullset controller and create a pod using headless service
+Create a replicaset with node selector
+
