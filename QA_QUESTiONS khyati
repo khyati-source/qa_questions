@@ -837,3 +837,4 @@ Create deployment manifest file which should also include taint and  toleration 
 Use statefullset controller and create a pod using headless service
 Create a replicaset with node selector
 
+1--
