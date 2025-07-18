@@ -837,4 +837,11 @@ Create deployment manifest file which should also include taint and  toleration 
 Use statefullset controller and create a pod using headless service
 Create a replicaset with node selector
 
-1--
+
+===========================================================================================================================================
+
+in kuberenete how can i decide how many master and worker nodes shoulbe be created?
+what is the no. of master node and no. of worker nodes for multi master nodes in the company you worked?
+
+
+
