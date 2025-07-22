@@ -840,8 +840,25 @@ Create a replicaset with node selector
 
 ===========================================================================================================================================
 
-in kuberenete how can i decide how many master and worker nodes shoulbe be created?
+In kuberenete how can i decide how many master and worker nodes shoulbe be created?
 what is the no. of master node and no. of worker nodes for multi master nodes in the company you worked?
+
+
+===========================================================================================================================================
+
+
+what configuration is given for creating auto scaling group?
+Where to Check Instance Health in ASG (Console)?
+give a example how the asg behaves when it reaches max,min,desired capacity
+what are the policies in auto scaling group?
+what is the Predictive	 scaling?
+What Happens if an Instance Is Unhealthy in ASG?
+in kuberenete if pod is unhealthy what k8s do?
+key difference in how failure is handled in Kubernetes vs. AWS Auto Scaling Groups (ASG). 
+ If your Auto Scaling Group (ASG) is still launching old versions of your EC2?how to update the new version?
+Now your ASG uses the new version — but existing instances are still old.how can we configure it?
+How to Trigger Rolling Updates in ASG?
+if i  want to edit or replace the old version by new version then can i edit directly in asg?
 
 
 
