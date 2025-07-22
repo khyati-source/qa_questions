@@ -859,6 +859,8 @@ key difference in how failure is handled in Kubernetes vs. AWS Auto Scaling Grou
 Now your ASG uses the new version — but existing instances are still old.how can we configure it?
 How to Trigger Rolling Updates in ASG?
 if i  want to edit or replace the old version by new version then can i edit directly in asg?
+create asg using cloud formation?
+how to scale in k8s?automatically?
 
 
 
