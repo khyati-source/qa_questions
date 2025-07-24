@@ -1150,3 +1150,44 @@ The main app container(s) only start after all init containers finish.
 initContainers run before the main containers start.
 They run sequentially and exit after completing their job.
 Once an initContainer finishes successfully, it's terminated and no longer running — so there's nothing to exec into.
+
+
+
+
+
+=====================================================================================================================================================
+
+                                                  24/7/2025
+why Kubernetes (K8s) is needed even if you're already using Docker.
+difference between Microservices and Monolithic architecture
+what are the main components of the Kubernetes Control Plane (also called the "master plane").??
+difference between a Pod and a Container in Kubernetes
+components running on a Kubernetes worker node ?
+in k8s where the cluster staate information are saved ?
+what is the job of scheduler?
+which component interact with pod
+can we run k8s without docker image?
+what is the namespace ?
+Non-Namespaced Resources ??
+what is the use of cloud controlled manager?
+types of controller?
+List All Resources with API Groups
+types of namespace?
+what are the basic fields in manifest file?
+what is the use of annotation field?
+list all resource in all namespace
+the spec section in Kubernetes YAML.??
+What is kube-node-lease Namespace?
+how do you scale in daemon set?
+what is the use of selectors and labels 
+there are two main types of selectors:
+ How to Roll Back a Deployment
+To verify if a rollout was successful in Kubernetes?
+what are the Deployment strategies 
+can we edit the image after deployemnt is done?
+how can edit spec without opening yaml file?
+ Components in a Manifest That Cannot Be Changed Directly
+in deployment how will you expose the ports?
+role n clusterrole?
+
+
