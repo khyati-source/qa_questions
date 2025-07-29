@@ -1190,4 +1190,30 @@ how can edit spec without opening yaml file?
 in deployment how will you expose the ports?
 role n clusterrole?
 
+=====================================================================================================================================================
+
+
+What Are Intrinsic Functions in AWS CloudFormation?
+Minimum Required Sections in a CloudFormation Template
+why to use stack set?
+y to use nested stack
+what is nested stack
+how r u creating a stack??
+what is stack?how to create cloud formation
+why u need dATAbase to store data?
+comparison between Amazon S3 and a Database 
+Why do we need data in a structured way?
+difference btw relational db and non relational?
+how to make database highly available?
+what are read replicas?
+example of relational and non relational
+snapshot?
+what is disaster recovery?what are dr setups made in aws?
+ddos effect?and how will u aware that ddos effect will be effected ?
+what is firewall?
+what is the use of firewall in ddos effect?
+What is CloudFront?
+How CloudFront Works?
+simple example of using Amazon CloudFront 
+What is Cloud Edge
 
