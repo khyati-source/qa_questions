@@ -1216,4 +1216,11 @@ What is CloudFront?
 How CloudFront Works?
 simple example of using Amazon CloudFront 
 What is Cloud Edge
+ Where Do We Use AWS WAF (Web Application Firewall)?
+ the relationship between WAF and Firewall 
 
+
+task:
+what is disaster recovery?
+ how to deploy a web application in AWS using a Two-Tier Architecture,
+how to deploy a web application in AWS using a Three-Tier Architecture,
