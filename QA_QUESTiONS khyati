@@ -1224,3 +1224,17 @@ task:
 what is disaster recovery?
  how to deploy a web application in AWS using a Two-Tier Architecture,
 how to deploy a web application in AWS using a Three-Tier Architecture,
+
+
+
+
+=================================================================================================================================================
+
+How will u handle individual account in scp
+what is cloud tower
+If I deny at root level n allow at ou level what happens 
+What is service catalog 
+give AWS service for ci n cd
+How can we cache the data in aws
+What can CloudFront cache?
+
