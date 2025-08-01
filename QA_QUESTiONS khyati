@@ -7,7 +7,7 @@ how to check pid of backgroound job
 
 what is echo $$,echo $? 
 
-how to combine all commits and merge to one commit? 
+how to combine all commits and 088merge to one commit? 
 
 what is shared library 
 
@@ -1238,3 +1238,37 @@ give AWS service for ci n cd
 How can we cache the data in aws
 What can CloudFront cache?
 
+
+
+
+Ebs and efs
+What is dynamic inventory in ansiible
+What is ecs
+What is nat gateway
+If u want less conflicts then what u will suggest to the developer 
+How can I run multiple stages in jenkins at one time
+Nodes are healthy and application is not ready I want to make wait k8s for waiting application to be raedy
+When pods take a lot of time to ready what is the reason for unhealthy
+What are the three types of probes
+How to check what permission is there what authentication i have in k8s
+1st Aug 2025:
+*************
+1. how do i get rid of merge conflicts , what suggestions i can give to developers
+2. in jenkins i have multiple stages , i want to run all stages at a time, how can i do it
+3. My application is taking long time to start and it gets terminated by K8s, though all the nodes and pods are healthy why my application is terminated.
+4. how many triggers in lambda function
+5. what is api gateway used for
+6. i have a lamda function in aws so there we have handler, what is it
+7. i have 2 vpc in aws and i need to establish connect between them, how do i do
+8. i dont have cicd, i want to deploy tomcat application manually ,how do i do that
+9. how to figure it out which processes are eating up cpu and memory
+10. what is the purpose of internal load balancer in k8s and give me use case
+11. what is the real time usage of internal load balancer where it is used 
+12. what is node pressure
+13. how do you set resource limit in kubernetes
+14. difference between EBS and EFS
+15. what is state file in terraform
+16. what is dynamic inventory 
+17. what is ansible roles
+18. what is nat gateway
+19. how do we secure our kubernetes
