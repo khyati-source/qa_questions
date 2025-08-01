@@ -1272,3 +1272,15 @@ How to check what permission is there what authentication i have in k8s
 17. what is ansible roles
 18. what is nat gateway
 19. how do we secure our kubernetes
+
+
+1. Can vpc peering be used for 3vpcs?
+2. ⁠using vpc peering,a and b is connected.b and c is connected. Can a talk to c?
+3. Resize an ebs volume attched to ec2-steps
+4.Roles and users in aws so as to segregate users ,dev,qa
+5.Migrate from ecs to eks
+6.efs vs ebs
+7.Create user with password in aws cli
+Note :organisations never use pem key
+
+8.Prevent scheduling on a particular node
