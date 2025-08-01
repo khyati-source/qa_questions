@@ -1284,3 +1284,10 @@ How to check what permission is there what authentication i have in k8s
 Note :organisations never use pem key
 
 8.Prevent scheduling on a particular node
+9. Facing so many issues during a k8s deployment.What should I do next time to prevent these many issues?
+ Answer - Prepare RCA document
+ Use confluence etc
+10.Make replica highly available
+use nodes in diff AZs etc
+[01/08, 8:48 pm] Liz Maria: 11.Canary deployment
+[01/08, 8:51 pm] Liz Maria: 12.*inject* credential into jenkins pipeline to access aws and docker private repo
