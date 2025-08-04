@@ -1366,5 +1366,44 @@ How to switch between Kubernetes configurations — Different methods to switch 
 24. **DNS Resolution Table**: What is a DNS resolution table, and how is it used in networking?
 
 
+Jenkins CI CD 
+Jenkins CI CD stages 
+How pipeline trigger automatically 
+How the flow of u r CI CD 
+What are the env are there 
+I want to know the entire flow from dev to QA to preprod to prod 
+What are issues u have faced while working on Jenkins
+If Jenkins pipeline fails in build stage how you will trouble shoot?
+Maven repo related scenarios questions?
 
+Docker 
+
+What Dockerfile
+How do you write Dockerfile? 
+What type of apps are there ?
+How do you build an image?
+If I have not mentioned cmd and entry point will it run docker file ?
+
+Kubernetes
+
+What is kubernetes?
+What is deployment?
+What is the difference between service and ingress?
+What is the difference between configmap and secrets?
+How you will expose application on kubernetes?
+What is pod ?
+If we can store two containers in pod then what is use of second
+
+
+Jenkins Questions
+Declarative and Scripted pipeline for Jenkins
+How do you deploy in Jenkins particularly?
+How do you deploy QA and Dev environment in Jenkins?
+How do you give a user access to Jenkins?
+How to secure Jenkins?
+✅ Terraform Questions
+What does terraform plan do?
+How to update an EC2 instance without downtime using Terraform?
+What is lifecycle in Terraform?
+Explain Terraform lifecycle
 
