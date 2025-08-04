@@ -1329,3 +1329,42 @@ How to switch between Kubernetes configurations — Different methods to switch 
 
 
 
+
+
+
+
+## AWS-Related Questions
+1. **EC2 Cost Optimization**: What are the best practices for optimizing the cost of running EC2 instances?
+2. **S3 Lifecycle Policy**: Explain the S3 lifecycle policy and how it can be configured to manage object storage efficiently.
+3. **S3 Cross-Region Replication**: How can cross-region replication be achieved in Amazon S3?
+4. **S3 Data Recovery**: If an object is accidentally deleted in S3, what steps can be taken to retrieve it?
+5. **S3 Access Denied Issue**: If a user has full access permissions to an S3 bucket but still receives an "Access Denied" error, what could be the potential causes, and how can they be resolved?
+6. **Lambda Timeout Handling**: If a Lambda function is timing out due to a process taking too long, what strategies can be used to address this issue?
+7. **Lambda Concurrency for Task Repetition**: How can you configure an AWS Lambda function to run a task 10 times using concurrency options?
+8. **EFS Throughput**: What is the throughput capability of Amazon Elastic File System (EFS), and how does it impact performance?
+9. **KMS, AES, and RSA Encryption**: What are AWS Key Management Service (KMS), AES, and RSA encryption? In what scenarios are they typically used?
+
+## Kubernetes-Related Questions
+10. **Readiness Probe**: What is a readiness probe in Kubernetes, and in which scenarios is it used?
+11. **CrashLoopBackOff and ImagePullBackOff Errors**: In what use cases do `CrashLoopBackOff` and `ImagePullBackOff` errors occur in Kubernetes, and how can they be resolved?
+12. **Kubernetes Application Rollout**: Describe the process for rolling out a Kubernetes application.
+13. **High Availability Across Availability Zones**: How can you ensure high availability by spreading Kubernetes pods across multiple availability zones?
+14. **Pod in Pending State with PV/PVC**: Why might a pod remain in a `Pending` state when using Persistent Volumes (PV) and Persistent Volume Claims (PVC)? What steps can be taken to troubleshoot and resolve this issue?
+15. **Kubectl 403 Error**: If a user receives a 403 error when running `kubectl get pods`, what could be the cause, and how can it be resolved?
+16. **ClusterIP, NodePort, LoadBalancer, and Ingress**: What are the differences between `ClusterIP`, `NodePort`, `LoadBalancer`, and `Ingress` in Kubernetes?
+17. **Ingress Definition**: What is an Ingress resource in Kubernetes, and how is it used?
+18. **Three-Tier Application in Kubernetes**: How would you set up a three-tier application (UI, backend, and PostgreSQL database) in Kubernetes? Provide the steps or configuration approach.
+
+## Jenkins-Related Questions
+19. **Jenkins Performance Issue**: If a Jenkins job that typically takes 15 minutes to complete is now taking 50 minutes, what could be the cause, and what steps would you take to diagnose and fix it?
+20. **Securing Jenkins**: What are the best practices for securing a Jenkins instance?
+21. **Parameterized Plugin in Jenkins**: What is the parameterized plugin in Jenkins, and how is it used to enhance build flexibility?
+22. **Jenkins Pipeline for Three-Tier Application**: How would you set up a Jenkins pipeline for a three-tier application with the following stages: build, test, and deploy? Provide the configuration or steps required.
+
+## General DevOps Questions
+23. **Role Assignment in Large Teams**: In a large DevOps team, how would you assign roles and responsibilities to ensure efficient collaboration and operation?
+24. **DNS Resolution Table**: What is a DNS resolution table, and how is it used in networking?
+
+
+
+
