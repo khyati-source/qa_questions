@@ -1526,3 +1526,33 @@ Guaranteed QoS (in Kubernetes)
 What is EKS?
 EKS autoscaler cluster not scaling up pods
 How to troubleshoot autoscaler not scaling nodes in EKS
+
+
+
+
+1.how do you check vulnerabilities in docker image?
+2. how will you deploy a new application in docker and k8s?
+what is storage class in k8s?
+aws service catalog.
+how service catalog is different from cloud formation in aws?
+how would you create product catalog?
+what is state file in terraform?
+what are probes in k8s?
+i have an application which is going down after 30 min what probe will you configure to check the health ckeck the application?
+how does pod to pod communication happens in k8s?
+what is daemonset in k8s? tell some usecases.
+how will you login to a pod?
+what is workspace in terraform?
+softlink vs hardlink.
+how do you list opened ports in linux?
+create probes foe statefulset application?
+you have installed a softaware on 10 different vms how do you check weather th software is installed on each vms(ansible facts)?
+what is inline policy?
+what are guardails and types of guardails in aws?
+what is local and output variables in aws?
+what are state files in terraform?
+
+
+
+
+
