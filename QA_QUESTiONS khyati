@@ -1407,3 +1407,82 @@ How to update an EC2 instance without downtime using Terraform?
 What is lifecycle in Terraform?
 Explain Terraform lifecycle
 
+
+
+
+
+
+
+================================================================================================================
+5th Aug 2025:
+*************
+=================================================================================================================
+* what happens if we delete state file in terraform?
+* lambda is used to upload a files to s3 bucket and its getting timeout how to optimize ?
+* asg take good amount to become healthy ? how will you handle
+* blue-green deployment?
+* by mistake oyu commited credentials in GitHub how can you do it
+* security of kubernets services --> IAM, Security Group, VPC, & RBAC
+* s3 bucket montly bill is increasing every day , how will u optimize it?
+* production qa team figured out a bug, which happend due to last commit , who did it and rollback 
+* difference between CMD & EntryPoint
+* git repo cloned in local, new branch and making changes, somebody has mad changes and pushed to main , need to resolve merge conflict
+* how do you manage iam roles for larger team ?
+* kms key , suprivisor wants rotate every 6 months 
+* vpc, application --> trying to access 3rd party to access it --> need to check sg, nacl , even if the --> trace route, vpc flow log --> 
+organization traffic comes directly hobes --> to check where traffic is cutting down --> where my hob is cutting down
+* setup alarams --> cpu usage of 80% --> cloudwatch  --> set alrams for cpu > 80% -> set alram trigger --> you can define the endpoint ? 
+* have you worked on EKS ? what do you do when pod is stuck in pending state due to insuffiecent capacity
+* error handling in Jenkins
+* add a remote repo --> git remote add origin  --> perform all the actions
+* trigger the Jenkins pipeline on every push on main branch
+
+1----During production deployment, if there's a misconfigured YAML, it's more serious because it can cause downtime or broken services.
+     how you should handle it safely and profession???
+2----— if etcd is down in a Kubernetes cluster (like EKS or self-managed), it's a critical failure, how to handle it??
+3----if a developer deleted a file 15 days ago from a Git repo, how to recover it
+4--if your Jenkins master crashes, the goal is to restore Jenkins with all your jobs, plugins, and history, ideally with minimal or no downtime.how to do??
+5----how to set up a CI/CD pipeline that runs on every push to your main branch ??
+6---- U have a repo in GitHub u have to setup in your without cloning it
+7....How do you handle error in jenkins 
+8....In eks pod status is pending due to insufficient capacity what I have to do
+9....How to enable key rotation in AWS KMS 
+10...how to give multiple users or groups permission to assume an IAM role in AWS.
+11....U have cloned a repo u made new branch and u figured out some new changes made in remote and u want to bring changes in to your local repo how to do it
+12......Cmd and entry point 
+13....How to undo the commit in github
+14....I have s3 bucket I want to reduce the cost of my billing how??.
+15....You deleted a file in your GitHub repo, but you noticed that the commit history still shows the file. How to delete the commit history
+
+* what is statefile and what happens if some one deletes the state file .
+* we have auto scaling group, during peak time it is taking to long to scale how can i fix it
+* what is blue green deployment
+* difference between cmd and entrypoint
+* how do you manage iam access to larger teams
+* i have a kms key , every 6 months the key should be rotated ,how do you do that.
+* what happens in an organization when the traffic comes in hops, how i will come to know where my traffic broken.
+* If the traffic is reaching vpc and not hitting application, what is the cause and how can i fix it.
+* how do you set up alarms,how will come to know when a cpu usage goes above a limit.
+* what do you do when your pod is stuck in pending state due to insufficient capacities in eks.
+* how do you do error handling in jenkins
+* i have a repository in GitHub, i need to set up it in local system without git clone.
+* how do i deploy using Jenkins using a particular version from drop down.
+* there is developer, he deleted a file, no one remembers which is the file, how to find out which file was deleted and how to recover it.
+* by yaml syntax misconfiguration there is a production stoppage what you will do
+* explain end to end process from build till deployment in devops. explain with what all tools comes in the flow and how its done using the particular tool
+* what is pv and pvc
+* what is readwrite once
+* if i want to automate an application in kubernetes ,how do you do it
+* how do you make password less connection between 2 linux systems
+* what is state file in terraform, what happens if someone deletes it
+* what is local block used in terraform
+* what is data block in terraform
+* what is HPA in kubernetes
+* in jenkins pipeline,  what is the use of "when" parameter
+* difference between HTTP and HTTPS
+* what is crashloopbackoff error
+* how do control the access in kubernetes
+* how do you do error handling in jenkins
+* design a vpc for 3 tier application architecture, where do you keep the data base. what you will do if QA team and dev team want to access the data base when you have kept it in private subnet.
+* difference between list and tuple
+* how do you create s3 bucket using python sdk
