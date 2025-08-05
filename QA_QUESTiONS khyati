@@ -1486,3 +1486,43 @@ organization traffic comes directly hobes --> to check where traffic is cutting 
 * design a vpc for 3 tier application architecture, where do you keep the data base. what you will do if QA team and dev team want to access the data base when you have kept it in private subnet.
 * difference between list and tuple
 * how do you create s3 bucket using python sdk
+
+
+
+
+
+Here’s a list of the questions you’ve asked in this conversation so far:
+How do you start and stop the EC2 instance from Jenkins pipeline?
+What are the agent types in Jenkins?
+What are leaves and selectors? (Kubernetes labels and selectors)
+Contigmap and secrets? (ConfigMap and Secrets in Kubernetes)
+How does concurrency handled in Lambda?
+What is CloudWatch Log Insights?
+EKS how it is handles high availability?
+Securing your EKS cluster?
+Different between ReplicaSet and ReplicationController?
+Pod lifecycle?
+Doesn’t have access to the DynamoDB how do you check?
+Dry run?
+How to enable the shell script in a debugging mode?
+Geolocation routing policy?
+What are access modes in Kubernetes?
+If you want, I can provide a summary or deepe
+
+Kubernetes controllers
+How do you design an application on AWS?
+Branching strategies
+Agent types in Jenkins
+How to start and stop EC2 instances using Jenkins
+How to explain that in an interview
+Multi-stage Dockerfile
+What exactly happens during Docker image optimization?
+How to download a file during Docker build time?
+How to compress a file in Linux servers?
+What are labels and selectors in Kubernetes?
+Container lifecycle
+Ansible Tower
+Guaranteed QoS (in Kubernetes)
+What is EKS?
+EKS autoscaler cluster not scaling up pods
+How to troubleshoot autoscaler not scaling nodes in EKS
