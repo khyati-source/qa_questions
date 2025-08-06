@@ -1544,5 +1544,8 @@ what are state files in terraform?
 
 
 
-
-
+task:
+1.Creates an S3 bucket.
+2.Creates an EC2 instance.
+3.Creates an IAM Role with a policy that grants the EC2 read/write access to the S3 bucket.
+4.Attaches the role to the EC2 instance.
