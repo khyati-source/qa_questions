@@ -1229,7 +1229,8 @@ how to deploy a web application in AWS using a Three-Tier Architecture,
 
 
 =================================================================================================================================================
-
+1st Aug 2025:
+*************
 How will u handle individual account in scp
 what is cloud tower
 If I deny at root level n allow at ou level what happens 
@@ -1237,9 +1238,6 @@ What is service catalog
 give AWS service for ci n cd
 How can we cache the data in aws
 What can CloudFront cache?
-
-
-
 
 Ebs and efs
 What is dynamic inventory in ansiible
@@ -1251,8 +1249,7 @@ Nodes are healthy and application is not ready I want to make wait k8s for waiti
 When pods take a lot of time to ready what is the reason for unhealthy
 What are the three types of probes
 How to check what permission is there what authentication i have in k8s
-1st Aug 2025:
-*************
+
 1. how do i get rid of merge conflicts , what suggestions i can give to developers
 2. in jenkins i have multiple stages , i want to run all stages at a time, how can i do it
 3. My application is taking long time to start and it gets terminated by K8s, though all the nodes and pods are healthy why my application is terminated.
@@ -1329,6 +1326,7 @@ How to switch between Kubernetes configurations — Different methods to switch 
 
 
 
+================================================================================================================================================================================================================================
 
 
 
@@ -1377,7 +1375,6 @@ If Jenkins pipeline fails in build stage how you will trouble shoot?
 Maven repo related scenarios questions?
 
 Docker 
-
 What Dockerfile
 How do you write Dockerfile? 
 What type of apps are there ?
@@ -1385,7 +1382,6 @@ How do you build an image?
 If I have not mentioned cmd and entry point will it run docker file ?
 
 Kubernetes
-
 What is kubernetes?
 What is deployment?
 What is the difference between service and ingress?
@@ -1413,7 +1409,8 @@ Explain Terraform lifecycle
 
 
 
-================================================================================================================
+================================================================================================================================================================================================================================
+
 5th Aug 2025:
 *************
 =================================================================================================================
@@ -1487,10 +1484,6 @@ organization traffic comes directly hobes --> to check where traffic is cutting 
 * difference between list and tuple
 * how do you create s3 bucket using python sdk
 
-
-
-
-
 Here’s a list of the questions you’ve asked in this conversation so far:
 How do you start and stop the EC2 instance from Jenkins pipeline?
 What are the agent types in Jenkins?
@@ -1526,9 +1519,6 @@ Guaranteed QoS (in Kubernetes)
 What is EKS?
 EKS autoscaler cluster not scaling up pods
 How to troubleshoot autoscaler not scaling nodes in EKS
-
-
-
 
 1.how do you check vulnerabilities in docker image?
 2. how will you deploy a new application in docker and k8s?
