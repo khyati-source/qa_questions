@@ -1585,3 +1585,24 @@ task:
 26..How two services in different namespace can communicate each other 
 27..What is bottle neck
 28..
+
+
+
+
+
+1..What is etcd degraded 
+2..What is parallel execution
+3..Have you ever configured jenkins port 
+4..What is jenkins version current 
+5..what is the latest version of k8s
+6.. how do you secure your containers 
+7..how do you pass the env variables during build time
+8..what is probes
+9..what are the namespaces in the linux container 
+10..what is ansible control tower
+11...what is kernel panic error
+12. ..what is linux distribution 
+13. What is 503 error
+14.what is http error
+15. What is qos
+16. What is custom resource definitions 
