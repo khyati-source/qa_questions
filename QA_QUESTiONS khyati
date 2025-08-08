@@ -1549,3 +1549,39 @@ task:
 2.Creates an EC2 instance.
 3.Creates an IAM Role with a policy that grants the EC2 read/write access to the S3 bucket.
 4.Attaches the role to the EC2 instance.
+
+
+
+
+
+
+
+
+1...what is Interpreting pods between nodes
+2...what is api gateway 
+3...how to make etcd highly available and what algorithm is used
+4...whaat is cross account role 
+5...how make jenkins master node highly available 
+6...ecs and eks which is best for??
+7...what is trust policy in cross account role in aws
+8...give full step-by-step checklist to debug pod-to-pod communication — especially across nodes in Kubernetes.
+9...If you're using Auto Scaling Group (ASG) in AWS (especially with EKS or EC2), and scaling is taking too long, how to optimize ASG for faster scaling — step by step??
+10...How many ways you can trigger a lambda function 
+11...How to check who deleted the state file
+12...U have state file in s3 and by mistake someone deleted it and now I want backup of only state file not resources
+13...What is the security ways to store the statefile 
+14...In jenkins what is difference between scripted n declarative pipeline 
+15...In jenkins what is shared libraries 
+16...Whaat is canary deployment 
+17...how to implement rollback deployment in Jenkins,
+18...What is the build versioning 
+19..What is hot fixes in git
+20...How scheduler decides in which node it should schedule the pod 
+21..Difference between taint tolerance and affinity and node affinity 
+22..What is stateful application 
+23...Whaat is rbac
+24..Whaat is service account in k8s
+25..what is namespace 
+26..How two services in different namespace can communicate each other 
+27..What is bottle neck
+28..
