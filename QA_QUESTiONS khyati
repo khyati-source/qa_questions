@@ -1606,3 +1606,52 @@ task:
 14.what is http error
 15. What is qos
 16. What is custom resource definitions 
+
+
+
+
+
+
+
+
+1. you have s3 bucket, versioning is disabled, manually if i have enabled versioning what will happen when i do terraformplan next time
+2. what is a statefile in terraform
+3. you are assigned a task where you will detect failure before it happens, how do you predict it
+4. what is helmused for
+5. you have 2 services there is change planned tonight how the change can be handled
+6. strategies in databases
+7. you have aws resources where you run your applicaton, there is a product listed on your ecommerce site and suddenly the traffic increased what would youdo?
+8. if there is failure in one region how do you convince the team to have multiple region
+9. what is SLA and SLO
+10. you have k8s cluster, you need to decide 3 services to be running and communicate between each other,  which all services you will use
+11. you have to establish communication between 2 services running in different namespace ,how do you do it
+12. there is a recent change in RBAC,how do you roll back
+13. your etcd cluster is corrupted and you need to restore it without loosing any data. how do you do it
+14. what is helm
+15. what is statefile in terraform
+16. you are done for the day, you are waiting for developers for env variables, you have a sister application have same variables, you need to create the replica of secrets and configmap , how do you do.
+17. kubectl describe, what it does
+18. how asg and loadbalancer work together
+19. what is ttaint and toleration
+20. if you get merge conflicts , what suggestions you give to developers to reduce the merge conflicts
+21. difference btw revert and rebase
+22. how do you raise pr
+23. multiple ways to trigger lambda
+24. what is namespace
+25. when i hit DNS/UI i should get response from UI and when i hit DNS/api, i should get the response from API ,how do you do that
+26. what is nginx and what it is used for
+27. we have a namespace deleted how do you recover it.------> etcd backup
+28. how do your restore if someone has deleted main branch in git
+29. if you face an issue that the application is down from long time and not received any alerts, how you will check and debug though you have all monitoring tools configured
+30. what is ttl in devops
+31. what it does in route53
+32. you have cross cloud, the interconnect latency was 5 sec and now it is 80 sec, how do you figure out what is the issue 
+33. how do you check latency
+34. You have 30% of your ec2 instance not working, some are getting error and some are getting good response and traffic is working fine, what is happening here.
+
+1.DNS issue in k8s for all pods.Where to check?
+2.How to access a service from within cluster/enable communication using svcs
+3.ASG creating new scaling groups.But even before they are up,traffic is being assigned.How to prevent?
+4.pods getting deleted due to memory pressure but kubectl top shows plenty of memory.why?
+5.State file 
+6.Helm
