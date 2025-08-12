@@ -1542,6 +1542,7 @@ what are guardails and types of guardails in aws?
 what is local and output variables in aws?
 what are state files in terraform?
 
+================================================================================================================================================================================================================================
 
 
 task:
@@ -1555,6 +1556,7 @@ task:
 
 
 
+================================================================================================================================================================================================================================
 
 
 1...what is Interpreting pods between nodes
@@ -1587,6 +1589,7 @@ task:
 28..
 
 
+================================================================================================================================================================================================================================
 
 
 
@@ -1609,6 +1612,7 @@ task:
 
 
 
+================================================================================================================================================================================================================================
 
 
 
@@ -1655,3 +1659,29 @@ task:
 4.pods getting deleted due to memory pressure but kubectl top shows plenty of memory.why?
 5.State file 
 6.Helm
+
+
+
+
+================================================================================================================================================================================================================================
+
+
+
+1--Introduce as a devops engineer?
+2---what is the role in your project?what was  project all about?
+3---how to setup monitoring
+4--how to secure k8s services?
+5--how to secure k8s using liveness and readiness probe
+6---someone has changed the password of database how to monitor it?
+7--explain rolling update and blue deployment and canary deployment?
+8---If your application (or EC2 instance) is in a private subnet, you can’t SSH directly from the internet how to ssh it?
+9--what is ingress controller?
+10---how to connect on-premises infrastructure to the cloud?
+11--you have a microservice that depends on a single availability zone resource (like a database, storage, or service) and you want to make it highly available across multiple AZs.how to do that?
+12--how to spread HPA (Horizontal Pod Autoscaler) pods across multiple Availability Zones in Kubernetes?
+13---what is pod toplogies
+14--what is sla
+15--what happens if you breach the sla?
+16---How do you start your day?
+17--how frequently u deploy an application?
+18---what is osi model?
