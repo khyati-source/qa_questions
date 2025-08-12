@@ -1688,3 +1688,44 @@ task:
 19---what is pv and pvc
 20-- what is statefile in terraform?
 21-- If you created a PersistentVolume (PV) and a PersistentVolumeClaim (PVC) but your Pod is stuck in Pending state,?? why??
+
+
+
+
+CloudWatch Logs Insights — what is it?
+Presigned URL — what is it?
+Modifying a VPC in AWS.
+How to commit the n-5th commit in GitHub.
+Different Git branching strategies.
+Releasing branching strategies.
+Presigned URL (asked again).
+.bashrc and .profile files in Linux.
+How to distribute notifications in AWS.
+Fan-out architecture of SNS.
+How to avoid duplication in SNS notifications.
+Scaling an application in EKS.
+Lambda Layers — what are they?
+“A silver tower” (clarified as Ansible Tower).
+Ansible Tower — what is it?
+Service Account in Kubernetes.
+emptyDir volume in Kubernetes.
+Types of file system
+Group policy
+UDP
+How to documenting on UDP
+Disaster recovery
+CI/CD with the tools
+CrashLoopBackOff error
+What is your day to day activity for a DevOps role
+DevOps interview questions from basic
+What all I need to know about the Jira ticketing tool as a DevOps engineer?
+What are common Jira interview questions and answers for DevOps roles?
+How do you integrate Jira with CI/CD tools like Jenkins or Git?
+What is the difference between Jira issue types like Story, Task, Bug, and Epic?
+How to customize Jira workflows for DevOps processes?
+How to handle incident management in Jira?
+Can Jira track deployment history or release versions?
+How to create Jira automation rules for DevOps?
+How to link Jira tickets with Git commits and pull requests?
+How to manage sprints and boards in Jira from a DevOps perspective?
+Can Jira be used for change management in DevOps?
