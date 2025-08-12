@@ -1685,3 +1685,6 @@ task:
 16---How do you start your day?
 17--how frequently u deploy an application?
 18---what is osi model?
+19---what is pv and pvc
+20-- what is statefile in terraform?
+21-- If you created a PersistentVolume (PV) and a PersistentVolumeClaim (PVC) but your Pod is stuck in Pending state,?? why??
