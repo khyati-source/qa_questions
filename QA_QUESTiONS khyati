@@ -2135,4 +2135,15 @@ Answer: All Terraform operations fail until access is restored. Teams can't coll
 19..How to handle secrets in kubernetes 
 20..How to configure Master n slave nodes in jenkins 
 21...u have application running in 4 pods n increased the  pods using hpa how the pods get added ??
-22..
+22.
+1.Docker build using a file
+2. S3 lifecycle
+3. ⁠s3 versioning -why
+4.list all processes in docker
+5.Restrict access to ec2
+6.Replace an unresponsive EC2
+7.Resize
+8.Where are mount points defined
+9.Take a backup of s3
+23.iam role n iam user
+24.
