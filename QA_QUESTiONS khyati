@@ -2114,4 +2114,25 @@ Answer: All Terraform operations fail until access is restored. Teams can't coll
 
 ================================================================================================================================================================================================================================
 
-
+1...how to design vpc as highly available 
+2....what is lambda
+3...what is api server
+4..how to make jenkins pipeline secure 
+5..what is solar  qube n how to integrate it
+6...In k8s how do you limit the resources in namespace 
+7...what is difference between github actions n Jenkins 
+8...How to setup branch protection rules
+9...what is free style job in jenkins 
+10..what is declarative pipeline 
+11...How to check whether the deployment is successful or not
+12...how to release application using canary deployment 
+13.. what is upstream n downstream job in jenkins 
+14.,How to collaborate with developer n operation team as a devops engineer 
+15..how would you apply Root Cause Analysis to find why only one client can’t open the app while the others can.
+16..what is post build actions in jenkins 
+17...what is shared libraries in jenkins 
+18...Whaat is root cause analysis 
+19..How to handle secrets in kubernetes 
+20..How to configure Master n slave nodes in jenkins 
+21...u have application running in 4 pods n increased the  pods using hpa how the pods get added ??
+22..
