@@ -2147,3 +2147,30 @@ Answer: All Terraform operations fail until access is restored. Teams can't coll
 9.Take a backup of s3
 23.iam role n iam user
 24.
+
+
+
+
+
+
+
+
+Creation of Lambda and Use Cases – Steps to create an AWS Lambda, common scenarios where it’s used.
+API Gateway AWS – What it is, how it works.
+What is a Lambda Function 
+How Lambda is Triggered 
+What is a VPC 
+How to Create Private and Public Subnets – 
+Difference between Public and Private Subnet 
+Amazon Cognito Resource Pull 
+null_resource in Terraform 
+Sidecar Container – What it is
+locals block vs data block in Terraform 
+Use Case for depends_on in Terraform – When and why to use it.
+Rolling Update in Kubernetes 
+locals block in Terraform 
+sprint planning
+self introduction
+host a static website using aws
+null resource
+how do u refrence existing cloud resources in tf?for eg, get the instance id of an existing ec2
