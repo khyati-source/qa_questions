@@ -2174,3 +2174,80 @@ self introduction
 host a static website using aws
 null resource
 how do u refrence existing cloud resources in tf?for eg, get the instance id of an existing ec2
+
+
+
+
+==============================================================================================
+
+
+
+Aug 15th QA
+ ⁠1. A Container is crashing while running an app, how do you trouble shoot the issue?
+2. ⁠What is an Terraform workspace?
+3. ⁠What is Taint and untaint in terraform?
+4. ⁠If TF statefile gets deleted, what can you do to access the Infras?
+5. ⁠How do you migrate existing Cloud resource in to terrafom , say you have created VPC in console, what are the options you have to bring that TF infra
+6. ⁠How would you prevent pod gaining a nodes IAM access
+7. ⁠What is Service acccount 
+8. ⁠What is Pod disruption policy
+9. ⁠what is the Labels and selectors, why we have it
+10. ⁠What are the best practises to be followed while writing a docker file
+
+
+Telnet commands
+What is telnet command
+K8s version
+Current k8s version
+RDS instance failure
+Terraform init
+Terraform taint
+Provisioner and provider
+Container crashed
+What will you do when container crash
+Best practices for writing Docker image
+Restricting the pod node IAM permissions
+Service account
+PDB (Pod Disruption Budget)
+Why we use labels and selectors
+Pod needs to have an S3 bucket
+
+
+
+Node is getting restarted frequently — why?
+How do you check if kubelet is running?
+Certifications in kubelet
+Container Runtime Interface (CRI)
+Pod is getting into Pending state — how to troubleshoot?
+Pod security policies / Security policies for pods
+Helm template rendering error
+Total Kubernetes cluster security
+VPC-level security
+Least privilege concept
+What is a service account?
+Network policies
+Labels and selectors
+Endpoints in Kubernetes
+HPA (Horizontal Pod Autoscaler) is not scaling pods
+ImagePullBackOff error
+CrashLoopBackOff error in EKS
+Probes (liveness, readiness, startup)
+Terraform Questions
+What happens when you give Terraform drift — why it gives terraform apply?
+Terraform namespace
+Docker / Container Questions
+Best practices for writing Docker images
+Docker Hub rate limits / caps
+Multi-stage builds — why?
+AWS / Cloud Questions
+RDS instance failure scenarios
+Restricting the pod node IAM permissions
+Pod needs access to S3 bucket
+Networking / DNS Questions
+DNS resolution meaning
+DNS latency
+System / Linux Questions
+Systemd units
+General DevOps / On-Call
+What does “on call” mean in DevOps?
+
