@@ -2251,3 +2251,152 @@ Systemd units
 General DevOps / On-Call
 What does “on call” mean in DevOps?
 
+
+
+
+
+
+
+
+
+
+Why autoscaling groups (ASG) are not scaling even though threshold is 70%.
+How to configure zero downtime deployments in AWS.
+How to update an AMI with zero downtime.
+How to take backup of Jenkins.
+Types of applications supported in Elastic Beanstalk.
+How to check EC2 instance status.
+VPC Transit Gateway explanation.
+Types of EC2 instances.
+Elastic IPs.
+Latency-based routing in Route 53.
+How to do canary deployment in Route 53.
+How to route application to a backup region.
+ASG On-Demand instances terminating and Spot override.
+How to monitor all logs in CloudWatch agent on EC2.
+Unified agent config file (CloudWatch).
+Path-based routing in ALB.
+VPC Peering connections: prerequisites.
+Routing policies in Route 53.
+Kubernetes
+Kube-proxy problems and how to find root cause.
+QoS classes in Kubernetes.
+Affinity and anti-affinity.
+DaemonSet controller.
+Multi-node and multi-ASG challenges.
+How to ensure 2 pods per node.
+Scheduler: how pods are scheduled.
+CronJob and pod rotation (rollback).
+Multi-agent meaning in Jenkins (CI/CD context).
+Docker / DevOps
+How to run Docker with root or without root.
+Dockerfile overview.
+Linux
+Linux-based logs: locations, viewing, searching, and rotation.
+Jenkins
+Jenkins master/controller configuration.
+Multi-agent setup in Jenkins.
+TCP udp 
+NAT gateway
+Eks cluster 
+PVC and pv if the pod is deleted what will happen to the pv and pvc
+Object endpoints 
+How do you establish a vpc peering connections 
+How do you handle state file
+What is path based routing policy 
+Difference between ALB and NLB
+
+
+
+
+QA - Date 18.09.2025
+
+1. Lets Say, My auto scaling group has threshold of 70% CPU, My memory is getting out, how would you resolve this?
+2. ⁠I need to update AMI for my auto scaling group, how to do this with Zero down time: hint instance refresh
+3. ⁠ ⁠what are all ways you can use to take back up of your jenkins
+4. ⁠What are all the services you have used in AWS
+5. ⁠What is elastic beanstalk? what kind of application you can run on Elastic beanstalk
+6. ⁠You run docker with or without root privilege?
+7. ⁠How do you run container without root privilege
+8. ⁠What is a docker file
+9. ⁠What is Spot instance
+10. ⁠Your Spot instance is getting restarted back to back, How will you resolve , hint: Spot override stretegy
+11. ⁠Some instances are running old code even after rolling out an update, what can be the possible reason
+12. ⁠In Argo CD, Live state is showing synced, But UI is showing out of sync, what can be the cause?
+13. ⁠You have cloud watch agent on an EC2 instance and logs are in multiple folders with in the Instance, How will you keep on eye on all the logs? how would you monitor ? what is the right approach hint: Unified log identificatio, pattern based logs
+14. ⁠What is latency based routing
+15. ⁠You have exposed a new version of application to a percentage of traffic? what deployment stretegy is this? How would yo acheive this in Route 53
+16. ⁠You have deployed your application in multiple region, If a live region goes down, how will you switch the traffic to another region
+17. ⁠how to do health check up in route 53
+18. ⁠How will you deploy only 2 pods only per node, not to use deamon set
+19. ⁠You have updated a patch to your K8S worker node AMI, After updating all worker nodes Kube-service stopped working? How will you trouble shoot, where will you look?  hint: Liux machine logs
+20. ⁠What is Multi agent jenkins, What come to your mind when you hear Multi agent
+21. ⁠How will you handle certifcate rotation in K8s
+22. ⁠How scheduler works in K8s? how it schedules?
+23. ⁠Some of your Auto scaling groups Instances are starting and delcaring itself as unhealthy? what are all can be the casuses? 
+23. ⁠How would you handle your TF statefile
+24. ⁠What are all the prerequisites to establisihing an VPC peering?
+25. ⁠Boot strapping in Auto scaling template?
+26. ⁠what are SRE principles?
+27. WHat is SLA
+28. ⁠SLA vs SLO
+29. ⁠When we say jenkins backup what are all the back ups, you do?
+30. ⁠Tell me, How do your jenkins cluster looks like
+
+31. what are all instance types available in AWS EC2.
+
+32. What is an Path based routing policy
+
+
+
+
+
+
+
+
+
+
+Date 16.08.2025
+
+1. What is the k8s Version you are currently running, Suggestion, Learn all the current stable version of all the Tools we mention in resume
+2. ⁠How would you prevent a pod from gaining Access of node ? hint: Service account and IAM Role
+3. ⁠What is helm ? Look in to topics like helm  rendering error | helm dry run | Helm roll back | helm History | Helm Upgrade | helm Install
+4. ⁠How would you secure your K8s Cluster ? Give me aspects of Objects, Cluster, External resource? Suggestion - streamline your answer, Can mention topics like, Just-in-time access, Least privileged access, Read-only access, Lateral Pod, network Policy, Namespace default deny etc
+5. ⁠Stacked topology ? 
+6. ⁠When you configured your Multi master cluster in Different region, if a cluster in 1 region goes down, what happens to etcd in other cluster?
+7. ⁠When you use Terraform Apply command, it shows no changes done to your cloud resource, But your routing changes ! what can be the cause?
+8. ⁠What is a canary deployment?
+9. ⁠What is Systemd in Linux
+10. ⁠Pod security Policy?
+11. ⁠Pod disruption policy?
+
+12. In your K8S cluster your Kubelet restarting back to back, what can be the cause?
+13. ⁠If multiple nodes in your EKS cluster is not in ready state? what will you do? what can be the cause?
+14. ⁠Endpoint objects in K8s
+15. ⁠What is an cloud provider in TF
+16. ⁠what is a name space in TF
+17. ⁠RTO and RPO
+33. What is Elastic IP? where have you used it?
+34. ⁠what are the challenges you have faced when setting up a multi AZ deployment?
+
+
+
+
+
+
+Drifts in terraform
+Meta arguments 
+What is a data block in terraform
+What is a null resource
+Usecade to use null resource
+
+Terraform modul structure
+How will u write a single roles in a playbook
+Advantage of using terraform backend
+How will u recreate a instances in terraform , delete n recreate it
+How will u destroy a particular resource
+Explain how you deploy an application in Kubernetes using cicd pipeline
+How will u bring external traffic to your Kubernetes cluster
+Use of route table in aws
+What is security groip
+
