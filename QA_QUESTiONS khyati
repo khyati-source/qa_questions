@@ -2487,3 +2487,55 @@ Reduce size of 'How do you handle a change e's the organisation?
 13
 
 Cuithub with helm fles. Whenever ass upgrade, change in github, it showed automatically be flected change in infra
+
+
+
+
+
+
+
+
+
+
+
+
+
+Docker / Kubernetes
+Entrpoint [ “ python”, “my_app.py”]
+Cmd and entry point
+Deployment yako file
+A simple deployment tank file
+What is apps/v1
+What happens if we don’t give apps/v1
+if you change replicas from cli what happens to the maifest
+what is ingress
+application container is not connecting to the database container in k8s
+Statefullset is rescheduled it
+Statefullset deployed in another availability zone what happens
+What will be the behavior of the pv and pvc in eks cluster
+when we go for daemonset controller
+What is pdb
+How do you handle certification rotation in k8s
+k8s cluster infrastructure I. Need to deploy multi az what are the challenges I need to face
+My job is repetedly running in k8s infinite loop
+Error code 137
+AWS / Cloud / Terraform / Migration
+Migration what are the factors I need to consider
+What is spot instance
+Challenges working with the terraform
+Storing secrets in terraform
+Database maintainance windows how do you do it without zero down time
+What measures you will take when your slave machine is gone offline
+when production env goes oom what you do
+I want to build a communication btwn overlapping cidrs how to do that
+DevOps / Jenkins / CI-CD / GitHub
+why Do we need multiple agents in Jenkins
+Parallael build means
+How do you trigger a GitHub actions workflow
+Docker / Dockerfile
+Best practices for writing doecjerfile
+Linux / SSH / System
+Current users in the Linux who logged in to the aws
+SSH tunneling
+HTTP / API
+402 error
