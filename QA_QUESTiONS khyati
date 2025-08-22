@@ -2542,3 +2542,64 @@ HTTP / API
 What is ingress 
 How do you troubleshoot the helm 
 If agent goes offline what happens in Jenkins
+
+
+
+
+
+
+Pod having 2 containers can it have a same port?
+Default eviction time for the pod when the node is not ready?
+How do you tweak this eviction time?
+If kubelet of the node goes degraded?
+StatefulSet replicas 1,2,3, what happens if you delete the replica 1?
+Container runtime interface
+K8s services
+Kubernetes namespaces
+Some containers are running and went unhealthy, it should restart if it’s unhealthy
+Probes
+My job is repeatedly running in K8s infinite loop
+Pod is not attaching to PVC
+Application container is not connecting to DB container in K8s
+Pod went OOM, your log is not showing
+2️⃣ AWS / Cloud / ASG / Load Balancers
+Lifecycle hooks in ASG in AWS
+VPC endpoints
+Cross zone load balancing
+When millions of requests are hitting, which LB is good?
+How NLB is handling millions of requests?
+Deploy ASG in zero downtime
+Host a static website on Route53
+What are records?
+403 error
+402 error
+502 errors
+Backend timeout in Terraform
+Fetching an S3 is getting latency, how do you resolve?
+How do you recover if Terraform state is deleted by someone?
+ASG configuration in AWS
+3️⃣ Terraform / DevOps
+Push-based and pull-based models means
+How do you segregate timing with request to plan and apply?
+Parallelism in Terraform
+Any module in Terraform
+Circular dependency
+4️⃣ Docker / Containers
+Dockerfile
+CMD vs ENTRYPOINT
+How to check Docker networks
+How do you establish the connection between the containers
+Some containers are running and went unhealthy, it should restart if unhealthy
+5️⃣ Bash / Scripting
+Simple Bash script to learn for interview purpose
+Calling the function simple
+Shell script for fetching a file
+6️⃣ Networking / Proxy / HTTP
+Reverse proxy
+When your application shows bad gateway in reverse proxy, how do you debug?
+HTTP and HTTPS, HTTPS becomes slow
+You deployed an application on EC2 instance and the response time of HTTPS is latency, how do you debug?
+Proxy means
+Write ansible playbook and install the nginx 
+What is terraform refresh 
+What is circular dependency
