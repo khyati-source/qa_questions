@@ -2603,3 +2603,49 @@ Proxy means
 Write ansible playbook and install the nginx 
 What is terraform refresh 
 What is circular dependency
+
+
+
+
+
+
+What is a service in Kubernetes?
+What is a headless service?
+I have enabled VPC Flow Logs, but I am not seeing logs in CloudWatch. Why?
+One of my EC2 instances has crashed. What should I do?
+In Linux, I want Service A to start only after Service B. How do I write a script?
+In Linux, I want Service B to start after Service A. How do I configure it?
+One of the CPU servers in production went OOM, but the top command does not show high CPU load. What could be the reason?
+Could this issue be a kernel error?
+Can you explain Docker networks?
+If a container is running in VM1 and another container is in VM2, how can they communicate without exposing them to the internet?
+Container A is not sending traffic to Container B. How do you validate it?
+A Kubernetes service is exposed as NodePort, but users cannot access it. What could be the problem?
+Can you show a service YAML for Kubernetes nodes?
+What is the functionality of kube-proxy?
+Is there any chance that kube-proxy can go down?
+What is an IAM role?
+I have an application that generates logs in /var/log. I need to monitor the last 50 lines of errors. Can you write a script?
+The logs are generated line by line, and I want to trigger an alert when a specific pattern occurs. How do I do it?
+How do you trigger a mail alert from Linux?
+A user is complaining about a 502 error in Kubernetes. How do you troubleshoot it?
+I have 10 services running on private VMs, and I need to restart them simultaneously. How can I do that?
+How do you find all files having 644 permissions?
+Can you write a Bash script for that?
+Explain the redirect symbols in Bash.
+There is a log file, and I need to fetch IP addresses and count how many times each has occurred.
+The log is generated continuously, and I want to trigger an alert immediately. How?
+How do you trigger an email alert when a log pattern appears?
+One of the CPU servers in production went OOM, but top is not showing the CPU load. How do you troubleshoot?
+Explain Docker networks and cross-VM container communication.
+Service exposed in Kubernetes NodePort is not accessible. How do you troubleshoot?
+Explain kube-proxy functionality.
+How does IAM role work for EC2 or Kubernetes?
+How do you limit a Pod to consume only a certain amount of CPU?
+What are CloudWatch agents, and how do you configure them?
+I have an EC2 instance, but it is not showing CPU, memory, and disk metrics in CloudWatch. How do I fix it?
+In Jenkins, I can run systemctl start jenkins, but systemctl restart jenkins fails. Why?
+Jenkins is running, but the web application is not opening on port 8080. How do you troubleshoot?
+How do namespaces work in Kubernetes, and how do you “get into” a namespace?
+How do you deploy a Pod into a specific namespace?
+What is Kube context, and how exactly do you use it?
